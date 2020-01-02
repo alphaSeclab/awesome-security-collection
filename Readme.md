@@ -1,0 +1,1184 @@
+# 所有收集类项目:
+- [收集的所有开源工具: sec-tool-list](https://github.com/alphaSeclab/sec-tool-list): 超过18K, 包括Markdown和Json两种格式
+- [安全资源收集类的 Repo](https://github.com/alphaSeclab/awesome-security-collection): 1000+各类安全资源收集的Github Repo
+- [全平台逆向资源](https://github.com/alphaSeclab/awesome-reverse-engineering):
+    - Windows平台安全: PE/DLL/DLL-Injection/Dll-Hijack/Dll-Load/UAC-Bypass/Sysmon/AppLocker/ETW/WSL/.NET/Process-Injection/Code-Injection/DEP/Kernel/...
+    - Linux安全: ELF/...
+    - macOS/iXxx安全: Mach-O/越狱/LLDB/XCode/...
+    - Android安全: HotFix/XPosed/Pack/Unpack/Emulator/Obfuscate
+    - 知名工具: IDA/Ghidra/x64dbg/OllDbg/WinDBG/CuckooSandbox/Radare2/BinaryNinja/DynamoRIO/IntelPin/Frida/QEMU/...
+- [攻击性网络安全资源](https://github.com/alphaSeclab/awesome-cyber-security): 漏洞/渗透/物联网安全/数据渗透/Metasploit/BurpSuite/KaliLinux/C&C/OWASP/免杀/CobaltStrike/侦查/OSINT/社工/密码/凭证/威胁狩猎/Payload/WifiHacking/无线攻击/后渗透/提权/UAC绕过/...
+- [网络相关的安全资源](https://github.com/alphaSeclab/awesome-network-stuff): 
+    - 网络通信: 代理/SS/V2ray/GFW/反向代理/隧道/VPN/Tor/I2P/...
+    - 网络攻击: 中间人/PortKnocking/...
+    - 网络分析: 嗅探/协议分析/网络可视化/网络分析/网络诊断等
+- [开源远控和恶意远控分析报告](https://github.com/alphaSeclab/awesome-rat): 开源远控工具: Windows/Linux/macOS/Android; 远控类恶意恶意代码的分析报告等
+- [Webshell工具和分析/使用文章](https://github.com/alphaSeclab/awesome-webshell): Webshell资源收集, 包括150个Github项目, 200个左右文章
+- [取证相关工具和文章](https://github.com/alphaSeclab/awesome-forensics): 近300个取开源取证工具，近600与取证相关文章
+- [蜜罐资源](https://github.com/alphaSeclab/awesome-honeypot): 250+个开源蜜罐工具，350+与蜜罐相关文章
+- [Burp Suite资源](https://github.com/alphaSeclab/awesome-burp-suite): 400+个开源Burp插件，500+与Burp相关文章
+
+
+
+
+# collection
+
+
+- 1000+ Github 安全资源收集类的 Repos.
+- [English Version](https://github.com/alphaSeclab/awesome-security-collection/blob/master/Readme_en.md)
+
+
+# 目录
+- [收集](#7ac28aec578da6492a0bb6a8c4b8594a)
+    - [(974) 收集](#8c5a692b5d26527ef346687e047c5c21)
+    - [(54) 笔记&&文章&&教程](#9f9fed5b730bc5bfceaaf77da3aa719e)
+    - [(20) Wordlist](#6a5d962d62378399d7e12c1690188e7a)
+    - [(15) 爬虫](#cf11bcd58b4ec7a549bfb11297003180)
+
+
+# <a id="7ac28aec578da6492a0bb6a8c4b8594a"></a>收集
+
+
+***
+
+
+## <a id="8c5a692b5d26527ef346687e047c5c21"></a>收集
+
+
+- [**34045**星][1m] [Py] [minimaxir/big-list-of-naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings) “淘气”的字符串列表，当作为用户输入时很容易引发问题
+- [**33101**星][3m] [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) A collection of various awesome lists for hackers, pentesters and security researchers
+- [**24868**星][18d] [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
+- [**22055**星][30d] [PHP] [danielmiessler/seclists](https://github.com/danielmiessler/seclists) 多种类型资源收集：用户名、密码、URL、敏感数据类型、Fuzzing  Payload、WebShell等
+- [**19766**星][3m] [Jupyter Notebook] [camdavidsonpilon/probabilistic-programming-and-bayesian-methods-for-hackers](https://github.com/camdavidsonpilon/probabilistic-programming-and-bayesian-methods-for-hackers) aka "Bayesian Methods for Hackers": An introduction to Bayesian methods + probabilistic programming with a computation/understanding-first, mathematics-second point of view. All in pure Python ;)
+- [**18703**星][3y] [fallibleinc/security-guide-for-developers](https://github.com/fallibleinc/security-guide-for-developers) Security Guide for Developers (实用性开发人员安全须知)
+- [**14867**星][2m] [gfwlist/gfwlist](https://github.com/gfwlist/gfwlist) gfwlist
+- [**11389**星][13d] [Py] [swisskyrepo/payloadsallthethings](https://github.com/swisskyrepo/payloadsallthethings) A list of useful payloads and bypass for Web Application Security and Pentest/CTF
+- [**11306**星][12d] [Py] [owasp/cheatsheetseries](https://github.com/owasp/cheatsheetseries) The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.
+- [**10944**星][2m] [CSS] [hacker0x01/hacker101](https://github.com/hacker0x01/hacker101) Hacker101
+- [**10920**星][1m] [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) 渗透测试资源/工具集
+- [**10615**星][20d] [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
+- [**9042**星][3m] [vitalysim/awesome-hacking-resources](https://github.com/vitalysim/awesome-hacking-resources) A collection of hacking / penetration testing resources to make you better!
+- [**8031**星][3m] [Py] [facebook/chisel](https://github.com/facebook/chisel) Chisel is a collection of LLDB commands to assist debugging iOS apps.
+- [**5586**星][1m] [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) A curated list of awesome malware analysis tools and resources.
+- [**5229**星][4m] [Py] [ytisf/thezoo](https://github.com/ytisf/thezoo) A repository of LIVE malwares for your own joy and pleasure.
+- [**5181**星][27d] [PHP] [tennc/webshell](https://github.com/tennc/webshell) webshell收集
+- [**5121**星][3m] [sbilly/awesome-security](https://github.com/sbilly/awesome-security) 与安全相关的软件、库、文档、书籍、资源和工具等收集
+- [**5084**星][17d] [HTML] [owasp/owasp-mstg](https://github.com/owasp/owasp-mstg) 关于移动App安全开发、测试和逆向的相近手册
+- [**4441**星][2m] [Shell] [zardus/ctf-tools](https://github.com/zardus/ctf-tools) Some setup scripts for security research tools.
+- [**4306**星][17d] [Shell] [ashishb/android-security-awesome](https://github.com/ashishb/android-security-awesome) A collection of android security related resources
+- [**4252**星][1m] [qazbnm456/awesome-web-security](https://github.com/qazbnm456/awesome-web-security) web 安全资源列表
+- [**4115**星][10m] [wtsxdev/reverse-engineering](https://github.com/wtsxdev/reverse-engineering) List of awesome reverse engineering resources
+- [**4014**星][3m] [JS] [apsdehal/awesome-ctf](https://github.com/apsdehal/awesome-ctf) A curated list of CTF frameworks, libraries, resources and softwares
+- [**4014**星][3m] [JS] [apsdehal/awesome-ctf](https://github.com/apsdehal/awesome-ctf) A curated list of CTF frameworks, libraries, resources and softwares
+- [**3945**星][5m] [PHP] [paragonie/awesome-appsec](https://github.com/paragonie/awesome-appsec) A curated list of resources for learning about application security
+- [**3922**星][15d] [Py] [secureauthcorp/impacket](https://github.com/SecureAuthCorp/impacket) Python类收集, 用于与网络协议交互
+- [**3868**星][2m] [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint) OSINT资源收集
+- [**3836**星][4y] [iosre/iosappreverseengineering](https://github.com/iosre/iosappreverseengineering) The world’s 1st book of very detailed iOS App reverse engineering skills :)
+- [**3796**星][18d] [Py] [paralax/awesome-honeypots](https://github.com/paralax/awesome-honeypots) an awesome list of honeypot resources
+- [**3699**星][5m] [C] [secwiki/windows-kernel-exploits](https://github.com/secwiki/windows-kernel-exploits) windows-kernel-exploits Windows平台提权漏洞集合
+- [**3627**星][28d] [HTML] [consensys/smart-contract-best-practices](https://github.com/consensys/smart-contract-best-practices) A guide to smart contract security best practices
+- [**3616**星][19d] [blacckhathaceekr/pentesting-bible](https://github.com/blacckhathaceekr/pentesting-bible) links reaches 10000 links & 10000 pdf files .Learn Ethical Hacking and penetration testing .hundreds of ethical hacking & penetration testing & red team & cyber security & computer science resources.
+- [**3517**星][10m] [C] [rpisec/mbe](https://github.com/rpisec/mbe) Course materials for Modern Binary Exploitation by RPISEC
+- [**3461**星][30d] [C] [shellphish/how2heap](https://github.com/shellphish/how2heap) 学习各种堆利用技巧的repo
+- [**3383**星][11d] [jivoi/awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity) 针对网络安全的机器学习资源列表
+- [**3320**星][2y] [scanate/ethlist](https://github.com/scanate/ethlist) The Comprehensive Ethereum Reading List
+- [**3301**星][15d] [Shell] [toniblyx/my-arsenal-of-aws-security-tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.
+- [**3230**星][16d] [Rich Text Format] [the-art-of-hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) 资源收集：hacking、渗透、数字取证、事件响应、漏洞研究、漏洞开发、逆向
+- [**3203**星][6m] [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) A curated list of Awesome Threat Intelligence resources
+- [**3198**星][16d] [Makefile] [lorien/awesome-web-scraping](https://github.com/lorien/awesome-web-scraping) List of libraries, tools and APIs for web scraping and data processing.
+- [**3168**星][18d] [CSS] [juliocesarfort/public-pentesting-reports](https://github.com/juliocesarfort/public-pentesting-reports) Curated list of public penetration test reports released by several consulting firms and academic security groups
+- [**3141**星][17d] [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) A curated list of tools for incident response
+- [**3005**星][10d] [Py] [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list) Chinese-specific configuration to improve your favorite DNS server. Best partner for chnroutes.
+- [**2977**星][2y] [phith0n/mind-map](https://github.com/phith0n/mind-map) 各种安全相关思维导图整理收集
+- [**2967**星][11d] [Go] [dominikh/go-tools](https://github.com/dominikh/go-tools) Staticcheck – a collection of static analysis tools for working with Go code
+- [**2904**星][3m] [infosecn1nja/red-teaming-toolkit](https://github.com/infosecn1nja/red-teaming-toolkit) A collection of open source and commercial tools that aid in red team operations.
+- [**2816**星][2m] [paulsec/awesome-sec-talks](https://github.com/paulsec/awesome-sec-talks) A collected list of awesome security talks
+- [**2800**星][3m] [secwiki/sec-chart](https://github.com/secwiki/sec-chart) 安全思维导图集合
+- [**2759**星][1m] [JS] [s0md3v/awesomexss](https://github.com/s0md3v/AwesomeXSS) Awesome XSS stuff
+- [**2680**星][14d] [rmusser01/infosec_reference](https://github.com/rmusser01/infosec_reference) An Information Security Reference That Doesn't Suck
+- [**2671**星][1y] [HTML] [chybeta/web-security-learning](https://github.com/chybeta/web-security-learning) Web-Security-Learning
+- [**2660**星][18d] [xairy/linux-kernel-exploitation](https://github.com/xairy/linux-kernel-exploitation) Linux 内核 Fuzz 和漏洞利用的资源收集
+- [**2621**星][2m] [pditommaso/awesome-pipeline](https://github.com/pditommaso/awesome-pipeline) A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin
+- [**2615**星][1m] [JS] [knownsec/kcon](https://github.com/knownsec/kcon) KCon is a famous Hacker Con powered by Knownsec Team.
+- [**2519**星][27d] [onlurking/awesome-infosec](https://github.com/onlurking/awesome-infosec) A curated list of awesome infosec courses and training resources.
+- [**2499**星][5y] [PHP] [audi-1/sqli-labs](https://github.com/audi-1/sqli-labs) SQLI labs to test error based, Blind boolean based, Time based.
+- [**2474**星][2m] [Py] [0xinfection/awesome-waf](https://github.com/0xinfection/awesome-waf) Everything awesome about web application firewalls (WAFs).
+- [**2419**星][3y] [rpisec/malware](https://github.com/rpisec/malware) Course materials for Malware Analysis by RPISEC
+- [**2395**星][3y] [OCaml] [facebookarchive/pfff](https://github.com/facebookarchive/pfff) 一堆工具的集合，用于执行静态分析、代码可视化、代码导航、保持格式的源码转换（例如：源码重构）。完美支持C、Java、JS、PHP，后续将支持其他一大堆语言。
+- [**2356**星][12m] [hack-with-github/free-security-ebooks](https://github.com/hack-with-github/free-security-ebooks) Free Security and Hacking eBooks
+- [**2345**星][22d] [yeyintminthuhtut/awesome-red-teaming](https://github.com/yeyintminthuhtut/awesome-red-teaming) List of Awesome Red Teaming Resources
+- [**2307**星][1m] [PS] [k8gege/k8tools](https://github.com/k8gege/k8tools) K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)
+- [**2228**星][2y] [JS] [cure53/h5sc](https://github.com/cure53/h5sc) HTML5 Security Cheatsheet - A collection of HTML5 related XSS attack vectors
+- [**2204**星][2m] [sobolevn/awesome-cryptography](https://github.com/sobolevn/awesome-cryptography) A curated list of cryptography resources and links.
+- [**2184**星][3y] [enddo/awesome-windows-exploitation](https://github.com/enddo/awesome-windows-exploitation) A curated list of awesome Windows Exploitation resources, and shiny things. Inspired by awesom
+- [**2169**星][2m] [gbdev/awesome-gbdev](https://github.com/gbdev/awesome-gbdev) A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.
+- [**2163**星][1y] [C++] [maestron/botnets](https://github.com/maestron/botnets) This is a collection of #botnet source codes, unorganized. For EDUCATIONAL PURPOSES ONLY
+- [**2161**星][10m] [exakat/php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) A reviewed list of useful PHP static analysis tools
+- [**2132**星][22d] [goq/telegram-list](https://github.com/goq/telegram-list) List of telegram groups, channels & bots // Список интересных групп, каналов и ботов телеграма // Список чатов для программистов
+- [**2118**星][3m] [yeahhub/hacking-security-ebooks](https://github.com/yeahhub/hacking-security-ebooks) Top 100 Hacking & Security E-Books (Free Download)
+- [**2116**星][1m] [infoslack/awesome-web-hacking](https://github.com/infoslack/awesome-web-hacking) A list of web application security
+- [**2078**星][2m] [edoverflow/bugbounty-cheatsheet](https://github.com/edoverflow/bugbounty-cheatsheet) A list of interesting payloads, tips and tricks for bug bounty hunters.
+- [**2067**星][12d] [tanprathan/mobileapp-pentest-cheatsheet](https://github.com/tanprathan/mobileapp-pentest-cheatsheet) The Mobile App Pentest cheat sheet was created to provide concise collection of high value information on specific mobile application penetration testing topics.
+- [**2066**星][1y] [bluscreenofjeff/red-team-infrastructure-wiki](https://github.com/bluscreenofjeff/red-team-infrastructure-wiki) Wiki to collect Red Team infrastructure hardening resources
+- [**2057**星][9m] [Shell] [foospidy/payloads](https://github.com/foospidy/payloads) web 攻击 Payload 集合
+- [**2042**星][9d] [Java] [williamfiset/algorithms](https://github.com/williamfiset/algorithms) A collection of algorithms and data structures
+- [**2030**星][14d] [HTML] [gtfobins/gtfobins.github.io](https://github.com/gtfobins/gtfobins.github.io) Curated list of Unix binaries that can be exploited to bypass system security restrictions
+- [**2018**星][2m] [qazbnm456/awesome-cve-poc](https://github.com/qazbnm456/awesome-cve-poc) CVE PoC列表
+- [**1990**星][2y] [dloss/python-pentest-tools](https://github.com/dloss/python-pentest-tools) 可用于渗透测试的Python工具收集
+- [**1982**星][1y] [BitBake] [1n3/intruderpayloads](https://github.com/1n3/intruderpayloads) BurpSuite Intruder Payload收集
+- [**1956**星][2m] [Py] [nixawk/pentest-wiki](https://github.com/nixawk/pentest-wiki) PENTEST-WIKI is a free online security knowledge library for pentesters / researchers. If you have a good idea, please share it with others.
+- [**1930**星][3m] [toolswatch/blackhat-arsenal-tools](https://github.com/toolswatch/blackhat-arsenal-tools) Black Hat 武器库
+- [**1904**星][30d] [olivierlaflamme/cheatsheet-god](https://github.com/olivierlaflamme/cheatsheet-god) Penetration Testing Reference Bank - OSCP / PTP & PTX Cheatsheet
+- [**1870**星][11m] [PHP] [bartblaze/php-backdoors](https://github.com/bartblaze/php-backdoors) A collection of PHP backdoors. For educational or testing purposes only.
+- [**1845**星][3m] [djadmin/awesome-bug-bounty](https://github.com/djadmin/awesome-bug-bounty) A comprehensive curated list of available Bug Bounty & Disclosure Programs and Write-ups.
+- [**1831**星][1y] [CSS] [ctfs/write-ups-2015](https://github.com/ctfs/write-ups-2015) Wiki-like CTF write-ups repository, maintained by the community. 2015
+- [**1787**星][4y] [caesar0301/awesome-pcaptools](https://github.com/caesar0301/awesome-pcaptools) 用于处理网络痕迹的工具收集
+- [**1779**星][1m] [17mon/china_ip_list](https://github.com/17mon/china_ip_list) IPList for China by IPIP.NET
+- [**1771**星][12d] [onethawt/idaplugins-list](https://github.com/onethawt/idaplugins-list) IDA插件收集
+- [**1760**星][1y] [coreb1t/awesome-pentest-cheat-sheets](https://github.com/coreb1t/awesome-pentest-cheat-sheets) Collection of the cheat sheets useful for pentesting
+- [**1752**星][1m] [ngalongc/bug-bounty-reference](https://github.com/ngalongc/bug-bounty-reference) Inspired by
+- [**1748**星][3m] [PHP] [orangetw/my-ctf-web-challenges](https://github.com/orangetw/my-ctf-web-challenges) Collection of CTF Web challenges I made
+- [**1748**星][4m] [tunz/js-vuln-db](https://github.com/tunz/js-vuln-db) A collection of JavaScript engine CVEs with PoCs
+- [**1739**星][2m] [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) Awesome list dedicated to Windows Subsystem for Linux
+- [**1716**星][4m] [R] [briatte/awesome-network-analysis](https://github.com/briatte/awesome-network-analysis) A curated list of awesome network analysis resources.
+- [**1663**星][2y] [Shell] [juude/droidreverse](https://github.com/juude/droidreverse) android 逆向工程工具集
+- [**1652**星][10m] [tylerha97/awesome-reversing](https://github.com/tylerha97/awesome-reversing) A curated list of awesome reversing resources
+- [**1650**星][15d] [sarojaba/awesome-devblog](https://github.com/sarojaba/awesome-devblog) Awesome Devblog
+- [**1636**星][2y] [jhaddix/tbhm](https://github.com/jhaddix/tbhm) The Bug Hunters Methodology
+- [**1630**星][2m] [ivrodriguezca/re-ios-apps](https://github.com/ivrodriguezca/re-ios-apps) A completely free, open source and online course about Reverse Engineering iOS Applications.
+- [**1602**星][7m] [Py] [w1109790800/penetration](https://github.com/w1109790800/penetration) 渗透 超全面的渗透资料
+- [**1585**星][7m] [Ruby] [brunofacca/zen-rails-security-checklist](https://github.com/brunofacca/zen-rails-security-checklist) Checklist of security precautions for Ruby on Rails applications.
+- [**1546**星][19d] [emijrp/awesome-awesome](https://github.com/emijrp/awesome-awesome) A curated list of awesome curated lists of many topics.
+- [**1534**星][6m] [snowming04/the-hacker-playbook-3-translation](https://github.com/snowming04/the-hacker-playbook-3-translation) 对 The Hacker Playbook 3 的翻译。
+- [**1509**星][14d] [YARA] [cybermonitor/apt_cybercriminal_campagin_collections](https://github.com/cybermonitor/apt_cybercriminal_campagin_collections) APT & CyberCriminal Campaign Collection
+- [**1482**星][14d] [C] [sleuthkit/sleuthkit](https://github.com/sleuthkit/sleuthkit)  a library and collection of command line digital forensics tools that allow you to investigate volume and file system data.
+- [**1481**星][2m] [minimaxir/hacker-news-undocumented](https://github.com/minimaxir/hacker-news-undocumented) Some of the hidden norms about Hacker News not otherwise covered in the Guidelines and the FAQ.
+- [**1479**星][30d] [edoverflow/can-i-take-over-xyz](https://github.com/edoverflow/can-i-take-over-xyz) "Can I take over XYZ?" — a list of services and how to claim (sub)domains with dangling DNS records.
+- [**1421**星][5m] [yadox666/the-hackers-hardware-toolkit](https://github.com/yadox666/the-hackers-hardware-toolkit) 用于Red Team、渗透、安全研究的最佳硬件产品集合
+- [**1417**星][3m] [Go] [hellogcc/100-gdb-tips](https://github.com/hellogcc/100-gdb-tips) A collection of gdb tips. 100 maybe just mean many here.
+- [**1417**星][3m] [HTML] [owasp/top10](https://github.com/owasp/top10) Official OWASP Top 10 Document Repository
+- [**1392**星][4y] [PHP] [johntroony/php-webshells](https://github.com/johntroony/php-webshells) Common php webshells. Do not host the file(s) on your server!
+- [**1376**星][2m] [grrrdog/java-deserialization-cheat-sheet](https://github.com/grrrdog/java-deserialization-cheat-sheet) The cheat sheet about Java Deserialization vulnerabilities
+- [**1347**星][2y] [HTML] [daxeel/blockshell](https://github.com/daxeel/blockshell) 用于学习区块链技术概念的命令行工具, 例如 likechaining, mining，proof of work 等
+- [**1332**星][3m] [jaredthecoder/awesome-vehicle-security](https://github.com/jaredthecoder/awesome-vehicle-security) A curated list of awesome resources, books, hardware, software, applications, people to follow, and more cool stuff about vehicle security, car hacking, and tinkering with the functionality of your car.
+- [**1305**星][1m] [nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting) PrivacyRespecting 服务和软件列表
+- [**1290**星][11d] [Shell] [firehol/blocklist-ipsets](https://github.com/firehol/blocklist-ipsets) ipsets dynamically updated with firehol's update-ipsets.sh script
+- [**1290**星][11d] [Shell] [firehol/blocklist-ipsets](https://github.com/firehol/blocklist-ipsets) ipsets dynamically updated with firehol's update-ipsets.sh script
+- [**1287**星][9m] [michalmalik/linux-re-101](https://github.com/michalmalik/linux-re-101) Linux逆向资源收集
+- [**1252**星][19d] [michalmalik/osx-re-101](https://github.com/michalmalik/osx-re-101) OSX/iOS逆向资源收集
+- [**1242**星][1y] [Ruby] [eliotsykes/rails-security-checklist](https://github.com/eliotsykes/rails-security-checklist) This checklist is limited to Rails security precautions and there are many other aspects of running a Rails app that need to be secured 
+- [**1223**星][5y] [cure53/xsschallengewiki](https://github.com/cure53/xsschallengewiki) Welcome to the XSS Challenge Wiki!
+- [**1223**星][5y] [cure53/xsschallengewiki](https://github.com/cure53/XSSChallengeWiki) Welcome to the XSS Challenge Wiki!
+- [**1222**星][25d] [dweinstein/awesome-frida](https://github.com/dweinstein/awesome-frida) frida 资源列表
+- [**1215**星][8m] [riusksk/secbook](https://github.com/riusksk/secbook) 信息安全从业者书单推荐
+- [**1207**星][8m] [joe-shenouda/awesome-cyber-skills](https://github.com/joe-shenouda/awesome-cyber-skills) A curated list of hacking environments where you can train your cyber skills legally and safely
+- [**1203**星][1y] [felixgr/secure-ios-app-dev](https://github.com/felixgr/secure-ios-app-dev) iOSApp 最常见漏洞收集
+- [**1197**星][2m] [Py] [cujanovic/ssrf-testing](https://github.com/cujanovic/ssrf-testing) SSRF (Server Side Request Forgery) testing resources
+- [**1187**星][2y] [C] [mubix/post-exploitation](https://github.com/mubix/post-exploitation) post-exploitation工具收集
+- [**1181**星][1m] [Py] [13o-bbr-bbq/machine_learning_security](https://github.com/13o-bbr-bbq/machine_learning_security) 机器学习与安全的几个Topic
+    - [Security_and_MachineLearning](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Security_and_MachineLearning) 网络安全与机器学习课程
+    - [Vulnerabilities_of_ML](https://github.com/13o-bbr-bbq/machine_learning_security/blob/master/Vulnerabilities_of_ML/) 机器学习漏洞的汇总
+    - [Analytics](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Analytics) 使用k-means分析捕获的数据包
+    - [CNN_test](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/CNN_test) 生成针对CNN的adversarial样例
+    - [DeepExploit](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/DeepExploit) 使用机器学习的全自动化渗透测试
+    - [Generator](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Generator) 使用遗传算法和生成对抗网络，全自动生成大量用于Web应用程序评估的注入代码。
+    - [Recommender](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Recommender) 推荐用于检测Web应用程序漏洞的最佳注入代码。
+    - [Saivs](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Saivs) 发现Web应用程序中的漏洞的AI
+- [**1172**星][17d] [m4ll0k/awesome-hacking-tools](https://github.com/m4ll0k/awesome-hacking-tools) Awesome Hacking Tools
+- [**1164**星][14d] [w00t3k/awesome-cellular-hacking](https://github.com/w00t3k/awesome-cellular-hacking) Awesome-Cellular-Hacking
+- [**1155**星][3y] [PS] [powershellempire/powertools](https://github.com/powershellempire/powertools) PowerShell项目的集合，重点是进攻性操作
+    - [PewPewPew](https://github.com/powershellempire/powertools/tree/master/PewPewPew) scripts that utilize a common pattern to host a script on a PowerShell webserver, invoke the IEX download cradle to download/execute the target code and post the results back to the server, and then post-process any results.
+    - [PowerBreach](https://github.com/powershellempire/powertools/tree/master/PowerBreach) a backdoor toolkit that aims to provide the user a wide variety of methods to backdoor a system. 
+    - [PowerPick](https://github.com/powershellempire/powertools/tree/master/PowerPick) allowing the execution of Powershell functionality without the use of Powershell.exe
+- [**1145**星][1m] [Batchfile] [ckjbug/hacking](https://github.com/ckjbug/hacking) Collate and develop network security, Hackers technical documentation and tools, code.
+- [**1145**星][7m] [nebgnahz/awesome-iot-hacks](https://github.com/nebgnahz/awesome-iot-hacks) A Collection of Hacks in IoT Space so that we can address them (hopefully).
+- [**1143**星][2y] [Py] [hackathonhackers/personal-sites](https://github.com/hackathonhackers/personal-sites) List of Hackathon Hackers' personal sites.
+- [**1141**星][1m] [HTML] [securitytxt/security-txt](https://github.com/securitytxt/security-txt) 网站定义安全策略的“标准”
+- [**1116**星][21d] [slowmist/knowledge-base](https://github.com/slowmist/knowledge-base) Knowledge Base 慢雾安全团队知识库
+- [**1115**星][1y] [paulsec/awesome-windows-domain-hardening](https://github.com/PaulSec/awesome-windows-domain-hardening) A curated list of awesome Security Hardening techniques for Windows.
+- [**1112**星][1y] [Py] [bugcrowd/hunt](https://github.com/bugcrowd/HUNT) Burp和ZAP的扩展收集
+- [**1110**星][6m] [Py] [coffeehb/some-poc-or-exp](https://github.com/coffeehb/some-poc-or-exp) 各种漏洞poc、Exp的收集或编写
+- [**1110**星][5m] [zbetcheckin/security_list](https://github.com/zbetcheckin/security_list) Great security list for fun and profit
+- [**1108**星][2m] [snoopysecurity/awesome-burp-extensions](https://github.com/snoopysecurity/awesome-burp-extensions) Burp扩展收集
+- [**1080**星][2m] [guardrailsio/awesome-golang-security](https://github.com/guardrailsio/awesome-golang-security) Awesome Golang Security resources
+- [**1066**星][12d] [Py] [forseti-security/forseti-security](https://github.com/forseti-security/forseti-security)  A community-driven collection of open source tools to improve the security of your Google Cloud Platform environments
+- [**1065**星][2y] [wtsxdev/machine-learning-for-cyber-security](https://github.com/wtsxdev/machine-learning-for-cyber-security) Curated list of tools and resources related to the use of machine learning for cyber security
+- [**1062**星][16d] [denji/awesome-http-benchmark](https://github.com/denji/awesome-http-benchmark) HTTP(S) benchmark tools, testing/debugging, & restAPI (RESTful)
+- [**1049**星][1m] [Py] [ct-open-source/tuya-convert](https://github.com/ct-open-source/tuya-convert) A collection of scripts to flash Tuya IoT devices to alternative firmwares
+- [**1037**星][2m] [C] [xairy/kernel-exploits](https://github.com/xairy/kernel-exploits) My proof-of-concept exploits for the Linux kernel
+- [**1030**星][1y] [naetw/ctf-pwn-tips](https://github.com/naetw/ctf-pwn-tips) Here record some tips about pwn. Something is obsoleted and won't be updated. Sorry about that.
+- [**1030**星][7m] [stephenturner/oneliners](https://github.com/stephenturner/oneliners) Useful bash one-liners for bioinformatics.
+- [**1026**星][17d] [sundowndev/hacker-roadmap](https://github.com/sundowndev/hacker-roadmap) an overview of what you need to learn penetration testing and a collection of hacking tools, resources and references to practice ethical hacking
+- [**1026**星][2y] [ObjC] [zhengmin1989/ios_ice_and_fire](https://github.com/zhengmin1989/ios_ice_and_fire) iOS冰与火之歌
+- [**1020**星][2m] [C] [bt3gl/pentesting-toolkit](https://github.com/bt3gl/Pentesting-Toolkit) 渗透测试，CTF和战争游戏的工具收集
+- [**1013**星][1y] [JS] [0xsobky/hackvault](https://github.com/0xsobky/hackvault) A container repository for my public web hacks!
+- [**1009**星][10m] [onethawt/reverseengineering-reading-list](https://github.com/onethawt/reverseengineering-reading-list) A list of Reverse Engineering articles, books, and papers
+- [**1007**星][1y] [PHP] [secwiki/cms-hunter](https://github.com/secwiki/cms-hunter) CMS漏洞测试用例集合
+- [**993**星][19d] [Py] [jekil/awesome-hacking](https://github.com/jekil/awesome-hacking) Awesome hacking is an awesome collection of hacking tools.
+- [**990**星][11m] [Py] [xiphosresearch/exploits](https://github.com/xiphosresearch/exploits) Miscellaneous exploit code
+- [**986**星][8m] [0x4d31/awesome-threat-detection](https://github.com/0x4d31/awesome-threat-detection) A curated list of awesome threat detection and hunting resources
+- [**977**星][4m] [ctfs/resources](https://github.com/ctfs/resources) A general collection of information, tools, and tips regarding CTFs and similar security competitions
+- [**963**星][2y] [C] [fdiskyou/injectallthethings](https://github.com/fdiskyou/injectallthethings) Seven different DLL injection techniques in one single project.
+- [**959**星][5m] [bugcrowd/bugcrowd_university](https://github.com/bugcrowd/bugcrowd_university) 研究者社区的教育内容
+- [**959**星][10m] [wtsxdev/penetration-testing](https://github.com/wtsxdev/penetration-testing) List of awesome penetration testing resources, tools and other shiny things
+- [**949**星][6m] [C] [dhavalkapil/heap-exploitation](https://github.com/dhavalkapil/heap-exploitation) This book on heap exploitation is a guide to understanding the internals of glibc's heap and various attacks possible on the heap structure.
+- [**946**星][2y] [HTML] [chybeta/software-security-learning](https://github.com/chybeta/software-security-learning) Software-Security-Learning
+- [**943**星][18d] [Py] [nullsecuritynet/tools](https://github.com/nullsecuritynet/tools) Security and Hacking Tools, Exploits, Proof of Concepts, Shellcodes, Scripts.
+- [**939**星][2y] [deepspaceharbor/awesome-ai-security](https://github.com/DeepSpaceHarbor/Awesome-AI-Security) A curated list of AI security resources 
+- [**929**星][2m] [tom0li/collection-document](https://github.com/tom0li/collection-document) Collection of quality safety articles
+- [**923**星][9m] [C] [0x90/wifi-arsenal](https://github.com/0x90/wifi-arsenal) WiFi arsenal
+- [**921**星][7m] [PS] [api0cradle/ultimateapplockerbypasslist](https://github.com/api0cradle/ultimateapplockerbypasslist) The goal of this repository is to document the most common techniques to bypass AppLocker.
+- [**917**星][7m] [cn0xroot/rfsec-toolkit](https://github.com/cn0xroot/rfsec-toolkit) RFSec-ToolKit is a collection of Radio Frequency Communication Protocol Hacktools.无线通信协议相关的工具集，可借助SDR硬件+相关工具对无线通信进行研究。Collect with ♥ by HackSmith
+- [**906**星][1m] [Shell] [dominicbreuker/stego-toolkit](https://github.com/dominicbreuker/stego-toolkit) Collection of steganography tools - helps with CTF challenges
+- [**899**星][12d] [Py] [derekselander/lldb](https://github.com/derekselander/lldb) A collection of LLDB aliases/regexes and Python scripts to aid in your debugging sessions
+- [**898**星][2m] [HTML] [hookmaster/frida-all-in-one](https://github.com/hookmaster/frida-all-in-one) FRIDA操作手册
+- [**894**星][3m] [Ruby] [w181496/web-ctf-cheatsheet](https://github.com/w181496/web-ctf-cheatsheet) Web CTF CheatSheet
+- [**890**星][3m] [jakejarvis/awesome-shodan-queries](https://github.com/jakejarvis/awesome-shodan-queries) Awesome Shodan Search Queries
+- [**871**星][12d] [explife0011/awesome-windows-kernel-security-development](https://github.com/explife0011/awesome-windows-kernel-security-development) windows kernel security development
+- [**852**星][30d] [trimstray/iptables-essentials](https://github.com/trimstray/iptables-essentials) Common Firewall Rules and Commands.
+- [**841**星][2m] [cugu/awesome-forensics](https://github.com/cugu/awesome-forensics) A curated list of awesome forensic analysis tools and resources
+- [**838**星][17d] [HTML] [rewardone/oscprepo](https://github.com/rewardone/oscprepo) A list of commands, scripts, resources, and more that I have gathered and attempted to consolidate for use as OSCP (and more) study material. Commands in 'Usefulcommands' Keepnote. Bookmarks and reading material in 'BookmarkList' Keepnote. Reconscan in scripts folder.
+- [**836**星][15d] [v33ru/iotsecurity101](https://github.com/v33ru/iotsecurity101) From IoT Pentesting to IoT Security
+- [**829**星][4y] [PS] [clymb3r/powershell](https://github.com/clymb3r/powershell) Useful PowerShell scripts
+- [**829**星][5m] [Shell] [danielmiessler/robotsdisallowed](https://github.com/danielmiessler/robotsdisallowed) A curated list of the most common and most interesting robots.txt disallowed directories.
+- [**826**星][10d] [cveproject/cvelist](https://github.com/cveproject/cvelist) Pilot program for CVE submission through GitHub
+- [**823**星][3m] [feeicn/security-ppt](https://github.com/feeicn/security-ppt) 大安全各领域各公司各会议分享的PPT
+- [**822**星][3m] [Shell] [shr3ddersec/shr3dkit](https://github.com/shr3ddersec/shr3dkit) Red Team Tool Kit
+- [**813**星][3y] [Py] [scrapy/quotesbot](https://github.com/scrapy/quotesbot) This is a sample Scrapy project for educational purposes
+- [**805**星][3y] [shmilylty/awesome-hacking](https://github.com/shmilylty/awesome-hacking) awesome hacking chinese version
+- [**796**星][15d] [Shell] [aqzt/kjyw](https://github.com/aqzt/kjyw) 快捷运维，代号kjyw，项目基于shell、python，运维脚本工具库，收集各类运维常用工具脚本，实现快速安装nginx、mysql、php、redis、nagios、运维经常使用的脚本等等...
+- [**788**星][11m] [v2-dev/awesome-social-engineering](https://github.com/v2-dev/awesome-social-engineering) 社会工程学资源集合
+- [**778**星][2y] [Py] [dagrz/aws_pwn](https://github.com/dagrz/aws_pwn) A collection of AWS penetration testing junk
+- [**766**星][2m] [daviddias/awesome-hacking-locations](https://github.com/daviddias/awesome-hacking-locations) List of Awesome Hacking Locations, organised by Country and City, listing if it features power and wifi. 
+- [**761**星][1m] [Py] [mubix/shellshocker-pocs](https://github.com/mubix/shellshocker-pocs) Collection of Proof of Concepts and Potential Targets for #ShellShocker
+- [**760**星][3y] [masatokinugawa/filterbypass](https://github.com/masatokinugawa/filterbypass) 浏览器XSS 过滤绕过清单
+- [**738**星][14d] [C++] [google/shaderc](https://github.com/google/shaderc) A collection of tools, libraries, and tests for Vulkan shader compilation.
+- [**737**星][7m] [Py] [devttys0/ida](https://github.com/devttys0/ida) IDA插件/脚本/模块收集
+    - [wpsearch](https://github.com/devttys0/ida/blob/master/scripts/wpsearch.py) 查找在MIPS WPS checksum实现中常见的立即数
+    - [md5hash](https://github.com/devttys0/ida/tree/master/modules/md5hash) 纯Python版的MD5 hash实现（IDA的hashlib有问题）
+    - [alleycat](https://github.com/devttys0/ida/tree/master/plugins/alleycat) 查找向指定的函数内代码块的路径、查找两个或多个函数之间的路径、生成交互式调用图、可编程
+    - [codatify](https://github.com/devttys0/ida/tree/master/plugins/codatify) 定义IDA自动化分析时miss的ASCII字符串、函数、代码。将data段的所有未定义字节转换为DWORD（于是IDA可识别函数和跳转表指针）
+    - [fluorescence](https://github.com/devttys0/ida/tree/master/plugins/fluorescence) 高亮函数调用指令
+    - [leafblower](https://github.com/devttys0/ida/tree/master/plugins/leafblower) 识别常用的POSIX函数：printf, sprintf, memcmp, strcpy等
+    - [localxrefs](https://github.com/devttys0/ida/tree/master/plugins/localxrefs) 在当前函数内部查找所有对任意选择文本的引用
+    - [mipslocalvars](https://github.com/devttys0/ida/tree/master/plugins/mipslocalvars) 对栈上只用于存储寄存器的变量进行命名，简化栈数据分析（MISP）
+    - [mipsrop](https://github.com/devttys0/ida/tree/master/plugins/mipsrop) 在MIPS可执行代码中搜寻ROP。查找常见的ROP
+    - [rizzo](https://github.com/devttys0/ida/tree/master/plugins/rizzo) 对2个或多个IDB之间的函数进行识别和重命名，基于：函数签名、对唯一字符串/常量的引用、模糊签名、调用图
+- [**736**星][1y] [Py] [averagesecurityguy/scripts](https://github.com/averagesecurityguy/scripts) Scripts I use during pentest engagements.
+- [**733**星][5m] [Lua] [cldrn/nmap-nse-scripts](https://github.com/cldrn/nmap-nse-scripts) My collection of nmap NSE scripts
+- [**728**星][3m] [C#] [harleyqu1nn/aggressorscripts](https://github.com/harleyqu1nn/aggressorscripts) Collection of Aggressor scripts for Cobalt Strike 3.0+ pulled from multiple sources
+- [**725**星][2m] [HTML] [j00ru/windows-syscalls](https://github.com/j00ru/windows-syscalls) Windows 系统调用表(NT/2000/XP/2003/Vista/2008/7/2012/8/10)
+- [**722**星][29d] [voorivex/pentest-guide](https://github.com/voorivex/pentest-guide) 基于OWASP的渗透测试指南，包括测试案例，资源和示例。
+- [**714**星][1y] [snifer/security-cheatsheets](https://github.com/snifer/security-cheatsheets) A collection of cheatsheets for various infosec tools and topics.
+- [**713**星][6m] [leezj9671/pentest_interview](https://github.com/leezj9671/pentest_interview) 个人准备渗透测试和安全面试的经验之谈，和去部分厂商的面试题，干货真的满满~
+- [**712**星][5m] [bit4woo/python_sec](https://github.com/bit4woo/python_sec) python安全和代码审计相关资料收集 
+- [**696**星][2m] [Py] [iceyhexman/onlinetools](https://github.com/iceyhexman/onlinetools) 在线cms识别|信息泄露|工控|系统|物联网安全|cms漏洞扫描|nmap端口扫描|子域名获取|待续..
+- [**695**星][4m] [netflix/security-bulletins](https://github.com/netflix/security-bulletins) Security Bulletins that relate to Netflix Open Source
+- [**693**星][2y] [C] [1n3/privesc](https://github.com/1n3/privesc) A collection of Windows, Linux and MySQL privilege escalation scripts and exploits.
+- [**685**星][14d] [Py] [gwen001/pentest-tools](https://github.com/gwen001/pentest-tools) 日常使用的渗透工具集合
+- [**684**星][2m] [andrewjkerr/security-cheatsheets](https://github.com/andrewjkerr/security-cheatsheets) A collection of useful cheatsheets for cheat that focuses on aiding security-type people with either security tools or popular UNIX programs.
+- [**682**星][3y] [PHP] [xl7dev/webshell](https://github.com/xl7dev/webshell) Webshell && Backdoor Collection
+- [**681**星][1m] [Shell] [wslutilities/wslu](https://github.com/wslutilities/wslu) A collection of utilities for Windows 10 Linux Subsystems
+- [**675**星][1y] [C] [billy-ellis/exploit-challenges](https://github.com/billy-ellis/exploit-challenges) A collection of vulnerable ARM binaries for practicing exploit development
+- [**668**星][2m] [doridori/android-security-reference](https://github.com/doridori/android-security-reference) A W.I.P Android Security Ref
+- [**665**星][2m] [redhuntlabs/awesome-asset-discovery](https://github.com/redhuntlabs/awesome-asset-discovery) List of Awesome Asset Discovery Resources
+- [**664**星][1y] [chybeta/code-audit-challenges](https://github.com/chybeta/code-audit-challenges) Code-Audit-Challenges
+- [**662**星][11d] [the-akira/computer-science-resources](https://github.com/the-akira/Computer-Science-Resources) A list of resources in different fields of Computer Science (multiple languages)
+- [**653**星][1m] [YARA] [eset/malware-ioc](https://github.com/eset/malware-ioc) Indicators of Compromises (IOC) of our various investigations
+- [**643**星][2y] [harmj0y/cheatsheets](https://github.com/harmj0y/cheatsheets) Cheat sheets for various projects.
+- [**643**星][6m] [PHP] [mattiasgeniar/php-exploit-scripts](https://github.com/mattiasgeniar/php-exploit-scripts) A collection of PHP exploit scripts, found when investigating hacked servers. These are stored for educational purposes and to test fuzzers and vulnerability scanners. Feel free to contribute.
+- [**639**星][9m] [cryptogenic/exploit-writeups](https://github.com/cryptogenic/exploit-writeups) A collection where my current and future writeups for exploits/CTF will go
+- [**638**星][12m] [HTML] [bl4de/security_whitepapers](https://github.com/bl4de/security_whitepapers) Collection of misc IT Security related whitepapers, presentations, slides - hacking, bug bounty, web application security, XSS, CSRF, SQLi
+- [**637**星][23d] [PS] [olafhartong/sysmon-modular](https://github.com/olafhartong/sysmon-modular) sysmon配置模块收集
+- [**635**星][8m] [yeyintminthuhtut/awesome-advanced-windows-exploitation-references](https://github.com/yeyintminthuhtut/Awesome-Advanced-Windows-Exploitation-References) List of Awesome Advanced Windows Exploitation References
+- [**633**星][5m] [3gstudent/pentest-and-development-tips](https://github.com/3gstudent/pentest-and-development-tips) A collection of pentest and development tips
+- [**632**星][10m] [webbreacher/offensiveinterview](https://github.com/webbreacher/offensiveinterview) Interview questions to screen offensive (red team/pentest) candidates
+- [**629**星][4m] [bypass007/safety-project-collection](https://github.com/bypass007/safety-project-collection) 收集一些比较优秀的开源安全项目，以帮助甲方安全从业人员构建企业安全能力。
+- [**620**星][2y] [turbo/openftp4](https://github.com/turbo/openftp4) A list of all FTP servers in IPv4 that allow anonymous logins.
+- [**619**星][1y] [jiangsir404/audit-learning](https://github.com/jiangsir404/audit-learning) 记录自己对《代码审计》的理解和总结，对危险函数的深入分析以及在p牛的博客和代码审计圈的收获
+- [**618**星][22d] [404notf0und/ai-for-security-learning](https://github.com/404notf0und/ai-for-security-learning) 安全场景、基于AI的安全算法和安全数据分析学习资料整理
+- [**613**星][4m] [Shell] [ashishb/osx-and-ios-security-awesome](https://github.com/ashishb/osx-and-ios-security-awesome) OSX and iOS related security tools
+- [**608**星][3m] [Swift] [gradients/gradients](https://github.com/Gradients/Gradients) A curated collection of 180 splendid gradients made in swift
+- [**606**星][1y] [C] [scottybauer/android_kernel_cve_pocs](https://github.com/scottybauer/android_kernel_cve_pocs) A list of my CVE's with POCs
+- [**604**星][2m] [siguza/ios-resources](https://github.com/siguza/ios-resources) Useful resources for iOS hacking
+- [**601**星][2m] [Py] [hslatman/awesome-industrial-control-system-security](https://github.com/hslatman/awesome-industrial-control-system-security) 工控系统安全资源列表
+- [**600**星][6m] [fabrimagic72/malware-samples](https://github.com/fabrimagic72/malware-samples) 恶意软件样本
+- [**593**星][1m] [lirantal/awesome-nodejs-security](https://github.com/lirantal/awesome-nodejs-security) Awesome Node.js Security resources
+- [**593**星][2m] [PS] [threatexpress/red-team-scripts](https://github.com/threatexpress/red-team-scripts) A collection of Red Team focused tools, scripts, and notes
+- [**592**星][3y] [hack-with-github/windows](https://github.com/hack-with-github/windows) Awesome tools to exploit Windows !
+- [**592**星][12m] [pandazheng/ioshackstudy](https://github.com/pandazheng/ioshackstudy) IOS安全学习资料汇总
+- [**591**星][16d] [Perl] [bollwarm/sectoolset](https://github.com/bollwarm/sectoolset) 安全项目工具集合
+- [**591**星][1y] [brunty/awesome-checker-services](https://github.com/brunty/awesome-checker-services) List of links to the various checkers out there on the web for sites, domains, security etc
+- [**590**星][15d] [clarketm/proxy-list](https://github.com/clarketm/proxy-list) A list of free, public, forward proxy servers. UPDATED DAILY!
+- [**587**星][6m] [d30sa1/rootkits-list-download](https://github.com/d30sa1/rootkits-list-download) Rootkit收集
+- [**577**星][2y] [hack-with-github/awesome-security-gists](https://github.com/hack-with-github/awesome-security-gists) Gist收集
+- [**574**星][3m] [HTML] [gwillem/magento-malware-scanner](https://github.com/gwillem/magento-malware-scanner) 用于检测 Magento 恶意软件的规则/样本集合
+- [**573**星][2y] [Py] [nnamon/linux-exploitation-course](https://github.com/nnamon/linux-exploitation-course) 中级 Linux 漏洞开发课程
+- [**571**星][4m] [r35tart/penetration_testing_case](https://github.com/r35tart/penetration_testing_case) 用于记录分享一些有趣的案例
+- [**564**星][1y] [C] [externalist/exploit_playground](https://github.com/externalist/exploit_playground) Analysis of public exploits or my 1day exploits
+- [**564**星][3m] [HTML] [netspi/sqlinjectionwiki](https://github.com/netspi/sqlinjectionwiki) A wiki focusing on aggregating and documenting various SQL injection methods
+- [**564**星][11m] [rapid7/ssh-badkeys](https://github.com/rapid7/ssh-badkeys) A collection of static SSH keys (public and private) that have made their way into software and hardware products.
+- [**560**星][9m] [guardrailsio/awesome-python-security](https://github.com/guardrailsio/awesome-python-security) Awesome Python Security resources
+- [**558**星][10m] [guardrailsio/awesome-php-security](https://github.com/guardrailsio/awesome-php-security) Awesome PHP Security Resources
+- [**557**星][3y] [secmobi/wiki.secmobi.com](https://github.com/secmobi/wiki.secmobi.com) 手机安全资源收集
+- [**557**星][9m] [Py] [yellowbyte/reverse-engineering-reference-manual](https://github.com/yellowbyte/reverse-engineering-reference-manual) 逆向参考手册. 包括很多工具的使用Tips
+- [**550**星][4y] [miyogurt/network-security-mind-map](https://github.com/MiYogurt/network-security-mind-map) 网络安全基础知识思维导图
+- [**549**星][4m] [C] [espressif/esp-iot-solution](https://github.com/espressif/esp-iot-solution) Espressif IoT Library. IoT Device Drivers, Documentations And Solutions.
+- [**530**星][30d] [a13xp0p0v/linux-kernel-defence-map](https://github.com/a13xp0p0v/linux-kernel-defence-map) Linux内核防御地图
+- [**530**星][2y] [Py] [ihack4falafel/oscp](https://github.com/ihack4falafel/oscp) Collection of things made during my OSCP journey
+- [**521**星][3y] [vasanthk/web-security-basics](https://github.com/vasanthk/web-security-basics) web 安全基础
+- [**504**星][2m] [hugetiny/awesome-vpn](https://github.com/hugetiny/awesome-vpn) 免费的代理,科学上网,翻墙，梯子大集合
+- [**501**星][4m] [PHP] [susers/writeups](https://github.com/susers/writeups) 国内各大CTF赛题及writeup整理
+- [**500**星][3y] [tengzhangchao/sec-box](https://github.com/tengzhangchao/sec-box) information security Tools Box （信息安全工具以及资源集合）
+- [**498**星][3m] [govolution/betterdefaultpasslist](https://github.com/govolution/betterdefaultpasslist) list includes default credentials from various manufacturers for their products like NAS, ERP, ICS etc.
+- [**496**星][2y] [sergey-pronin/awesome-vulnerability-research](https://github.com/sergey-pronin/Awesome-Vulnerability-Research) A curated list of the awesome resources about the Vulnerability Research
+- [**494**星][2m] [C] [hasherezade/demos](https://github.com/hasherezade/demos) Demos of various injection techniques found in malware
+- [**490**星][2y] [C++] [turbo/kpti-poc-collection](https://github.com/turbo/kpti-poc-collection) Meltdown/Spectre PoC src collection.
+- [**489**星][14d] [C] [jiayy/android_vuln_poc-exp](https://github.com/jiayy/android_vuln_poc-exp) This project contains pocs and exploits for vulneribilities I found (mostly)
+- [**488**星][2y] [b-mueller/android_app_security_checklist](https://github.com/b-mueller/android_app_security_checklist) Android App Security Checklist
+- [**487**星][2m] [radareorg/awesome-radare2](https://github.com/radareorg/awesome-radare2) A curated list of awesome projects, articles and the other materials powered by Radare2
+- [**486**星][1y] [lmy375/awesome-vmp](https://github.com/lmy375/awesome-vmp) 虚拟机分析相关资料
+- [**480**星][1y] [ksluckow/awesome-symbolic-execution](https://github.com/ksluckow/awesome-symbolic-execution) A curated list of awesome symbolic execution resources including essential research papers, lectures, videos, and tools.
+- [**477**星][1y] [hack-with-github/powerful-plugins](https://github.com/hack-with-github/powerful-plugins) Powerful plugins and add-ons for hackers
+- [**476**星][23d] [PS] [mantvydasb/redteam-tactics-and-techniques](https://github.com/mantvydasb/RedTeam-Tactics-and-Techniques) Red Teaming Tactics and Techniques
+- [**472**星][12m] [PHP] [l3m0n/pentest_tools](https://github.com/l3m0n/pentest_tools) 收集一些小型实用的工具
+- [**470**星][3y] [Shell] [g0tmi1k/os-scripts](https://github.com/g0tmi1k/os-scripts) Personal Collection of Operating Systems Scripts
+- [**468**星][29d] [meitar/awesome-cybersecurity-blueteam](https://github.com/meitar/awesome-cybersecurity-blueteam) A collection of awesome resources, tools, and other shiny things for cybersecurity blue teams.
+- [**465**星][2y] [Py] [coalfire-research/java-deserialization-exploits](https://github.com/coalfire-research/java-deserialization-exploits) A collection of curated Java Deserialization Exploits
+- [**465**星][1m] [gradiuscypher/infosec_getting_started](https://github.com/gradiuscypher/infosec_getting_started) A collection of resources/documentation/links/etc to help people learn about Infosec and break into the field.
+- [**463**星][3y] [remath/literature_review](https://github.com/remath/literature_review) Survey of program analysis research with a focus on machine code
+- [**462**星][6m] [C] [phoenhex/files](https://github.com/phoenhex/files) Phoenhex 团队的exploits/POCs/presentation
+- [**461**星][2y] [Py] [0xdeadbeefjerky/office-dde-payloads](https://github.com/0xdeadbeefjerky/office-dde-payloads) Collection of scripts and templates to generate Office documents embedded with the DDE, macro-less command execution technique.
+- [**460**星][5m] [C++] [comaeio/opcde](https://github.com/comaeio/opcde) OPCDE Cybersecurity Conference Materials
+- [**456**星][4y] [C] [haka-security/haka](https://github.com/haka-security/haka) 捕获TCP / IP数据包，并根据Lua策略文件对其进行过滤
+- [**455**星][22d] [m1ghtym0/browser-pwn](https://github.com/m1ghtym0/browser-pwn) An updated collection of resources targeting browser-exploitation.
+- [**454**星][10m] [C++] [ahupowerdns/hello-dns](https://github.com/ahupowerdns/hello-dns) Hello and welcome to DNS!
+- [**449**星][4y] [Py] [alienvault-labs/alienvaultlabs](https://github.com/alienvault-labs/alienvaultlabs) Alienvault Labs Projects Random Stuff
+- [**442**星][17d] [TSQL] [404notf0und/security-data-analysis-and-visualization](https://github.com/404notf0und/security-data-analysis-and-visualization) 2018-2020青年安全圈-活跃技术博主/博客
+- [**439**星][2y] [magoo/redteam-plan](https://github.com/magoo/redteam-plan) 规划 redteam 练习时要考虑的问题
+- [**438**星][1y] [meitar/awesome-lockpicking](https://github.com/meitar/awesome-lockpicking) 有关锁、保险箱、钥匙的指南、工具及其他资源的列表
+- [**437**星][4m] [re4lity/hacking-with-golang](https://github.com/re4lity/hacking-with-golang) Golang安全资源合集
+- [**431**星][2y] [rsmudge/malleable-c2-profiles](https://github.com/rsmudge/malleable-c2-profiles) Malleable C2 is a domain specific language to redefine indicators in Beacon's communication. This repository is a collection of Malleable C2 profiles that you may use. These profiles work with Cobalt Strike 3.x.
+- [**431**星][24d] [xuanhun/hackingresource](https://github.com/xuanhun/hackingresource) “玄魂工作室--安全圈” 知识星球内资源汇总
+- [**429**星][4m] [Shell] [ashishb/android-malware](https://github.com/ashishb/android-malware) Collection of android malware samples
+- [**426**星][1m] [dropsofzut/awesome-security-weixin-official-accounts](https://github.com/dropsofzut/awesome-security-weixin-official-accounts) 网络安全类公众号推荐
+- [**425**星][4m] [jack-liang/kalitools](https://github.com/jack-liang/kalitools) Kali Linux工具清单
+- [**424**星][3y] [pgaijin66/xss-payloads](https://github.com/pgaijin66/xss-payloads) List of advanced XSS payloads
+- [**424**星][2y] [ring04h/papers](https://github.com/ring04h/papers) my security summit papers
+- [**423**星][12m] [Lua] [w3h/icsmaster](https://github.com/w3h/icsmaster) 整合工控安全相关资源
+- [**421**星][6m] [preos-security/awesome-firmware-security](https://github.com/preos-security/awesome-firmware-security) Awesome Firmware Security & Other Helpful Documents
+- [**420**星][9m] [Shell] [sroberts/awesome-iocs](https://github.com/sroberts/awesome-iocs) A collection of sources of indicators of compromise.
+- [**415**星][2y] [zhengmin1989/greatiosjailbreakmaterial](https://github.com/zhengmin1989/greatiosjailbreakmaterial) Great iOS Jailbreak Material! - I read hundreds of papers and PPTs. Only list the most useful materials here!
+- [**411**星][15d] [Py] [bl4de/security-tools](https://github.com/bl4de/security-tools) Collection of small security tools created mostly in Python. CTFs, pentests and so on
+- [**411**星][15d] [HTML] [w3c/webappsec](https://github.com/w3c/webappsec) Web App安全工作组
+- [**411**星][2m] [husnainfareed/awesome-ethical-hacking-resources](https://github.com/husnainfareed/Awesome-Ethical-Hacking-Resources) Awesome Resources For Learning Hacking & Pentesting
+- [**409**星][3m] [ph055a/osint-collection](https://github.com/ph055a/osint-collection) Maintained collection of OSINT related resources. (All Free & Actionable)
+- [**407**星][2y] [JS] [0xdea/frida-scripts](https://github.com/0xdea/frida-scripts) A collection of my Frida.re instrumentation scripts to facilitate reverse engineering of mobile apps.
+- [**407**星][8m] [kai5263499/osx-security-awesome](https://github.com/kai5263499/osx-security-awesome) A collection of OSX and iOS security resources
+- [**405**星][3y] [Py] [xitu/macos-security-and-privacy-guide](https://github.com/xitu/macos-security-and-privacy-guide) A practical guide to securing macOS.
+- [**397**星][7m] [HTML] [gexos/hacking-tools-repository](https://github.com/gexos/hacking-tools-repository) A list of security/hacking tools that have been collected from the internet. Suggestions are welcomed.
+- [**396**星][4m] [ansjdnakjdnajkd/ios](https://github.com/ansjdnakjdnajkd/ios) iOS渗透测试最有用的工具
+- [**395**星][2y] [sweis/crypto-might-not-suck](https://github.com/sweis/crypto-might-not-suck) List of crypto projects that might not suck
+- [**393**星][2y] [r0ysue/osg-translationteam](https://github.com/r0ysue/osg-translationteam) 看雪iOS安全小组的翻译团队作品集合，如有勘误，欢迎斧正！
+- [**392**星][2m] [dsopas/assessment-mindset](https://github.com/dsopas/assessment-mindset) 安全相关的思维导图, 可用于pentesting, bug bounty, red-teamassessments
+- [**391**星][2m] [milabs/awesome-linux-rootkits](https://github.com/milabs/awesome-linux-rootkits) awesome-linux-rootkits
+- [**391**星][13d] [Py] [random-robbie/my-shodan-scripts](https://github.com/random-robbie/my-shodan-scripts) Collection of Scripts for shodan searching stuff.
+- [**389**星][2m] [tobiasbueschel/awesome-pokemon](https://github.com/tobiasbueschel/awesome-pokemon) A curated list of awesome Pokémon & Pokémon GO resources, tools and more. 
+- [**388**星][2y] [PS] [shellntel/scripts](https://github.com/shellntel/scripts) A collection of scripts from the security professionals at www.shellntel.com.
+- [**386**星][2y] [m0l1ce/wooyunallbugs](https://github.com/m0l1ce/wooyunallbugs) wooyun_all_bugs
+- [**385**星][3m] [Jupyter Notebook] [endgameinc/ember](https://github.com/endgameinc/ember) 110万PE文件的数据集合, 可用于训练相关模型. PE文件信息主要包括: SHA256/histogram(直方图)/byteentropy(字节熵)/字符串/PE头信息/段信息/导入表/导出表
+- [**383**星][2m] [thejambo/awesome-testing](https://github.com/thejambo/awesome-testing) A curated list of testing resources
+- [**379**星][1y] [CSS] [nowsecure/secure-mobile-development](https://github.com/nowsecure/secure-mobile-development) A Collection of Secure Mobile Development Best Practices
+- [**378**星][2y] [aozhimin/ios-debug-hacks](https://github.com/aozhimin/ios-debug-hacks) 
+- [**376**星][5m] [xtiankisutsa/awesome-mobile-ctf](https://github.com/xtiankisutsa/awesome-mobile-ctf) This is a curated list of mobile based CTFs, write-ups and vulnerable apps. Most of them are android based due to the popularity of the platform.
+- [**375**星][8m] [opencybertranslationproject/linux-basics-for-hackers](https://github.com/opencybertranslationproject/linux-basics-for-hackers) 书籍《Linux Basics for Hackers》2019版中文翻译版
+- [**374**星][3m] [AngelScript] [inquest/malware-samples](https://github.com/inquest/malware-samples) A collection of malware samples and relevant dissection information, most probably referenced from
+- [**373**星][3m] [renwax23/xss-payloads](https://github.com/renwax23/xss-payloads) List of XSS Vectors/Payloads
+- [**372**星][3y] [PHP] [nikicat/web-malware-collection](https://github.com/nikicat/web-malware-collection) Clone of svn repository of
+- [**370**星][11m] [Py] [awslabs/aws-security-automation](https://github.com/awslabs/aws-security-automation) Collection of scripts and resources for DevSecOps and Automated Incident Response Security
+- [**369**星][30d] [fkromer/awesome-ros2](https://github.com/fkromer/awesome-ros2) The Robot Operating System Version 2.0 is awesome!
+- [**366**星][2y] [PHP] [attackercan/regexp-security-cheatsheet](https://github.com/attackercan/regexp-security-cheatsheet) 
+- [**366**星][2m] [Go] [tomnomnom/httprobe](https://github.com/tomnomnom/httprobe) Take a list of domains and probe for working HTTP and HTTPS servers
+- [**366**星][2y] [wtsxdev/malware-analysis](https://github.com/wtsxdev/malware-analysis) List of awesome malware analysis tools and resources
+- [**364**星][8m] [Py] [orangetw/awesome-jenkins-rce-2019](https://github.com/orangetw/awesome-jenkins-rce-2019) There is no pre-auth RCE in Jenkins since May 2017, but this is the one!
+- [**363**星][10m] [fr0gger/awesome-ida-x64-olly-plugin](https://github.com/fr0gger/awesome-ida-x64-olly-plugin) IDA x64DBG OllyDBG 插件收集
+- [**363**星][13d] [hongrisec/web-security-attack](https://github.com/hongrisec/web-security-attack) Web安全相关内容
+- [**358**星][5m] [b3nac/android-reports-and-resources](https://github.com/b3nac/android-reports-and-resources) A big list of Android Hackerone disclosed reports and other resources.
+- [**356**星][5m] [Py] [a3sal0n/cyberthreathunting](https://github.com/a3sal0n/cyberthreathunting) A collection of resources for Threat Hunters
+- [**355**星][29d] [Py] [lockgit/hacking](https://github.com/lockgit/hacking) Hacking工具收集
+- [**354**星][14d] [Py] [alecmuffett/real-world-onion-sites](https://github.com/alecmuffett/real-world-onion-sites) This is a list of substantial, commercial-or-social-good mainstream websites which provide onion services.
+- [**354**星][4y] [fireeye/iocs](https://github.com/fireeye/iocs) FireEye Publicly Shared Indicators of Compromise (IOCs)
+- [**354**星][3y] [virajkulkarni14/webdevelopersecuritychecklist](https://github.com/virajkulkarni14/webdevelopersecuritychecklist) A checklist of important security issues you should consider when creating a web application.
+- [**352**星][4y] [Java] [rsmudge/cortana-scripts](https://github.com/rsmudge/cortana-scripts) A collection of Cortana scripts that you may use with Armitage and Cobalt Strike 2.x. Cortana Scripts are not compatible with Cobalt Strike 3.x. Cobalt Strike 3.x uses a variant of Cortana called Aggressor Script.
+- [**351**星][4m] [Shell] [maldevel/pentestkit](https://github.com/maldevel/pentestkit) 渗透脚本和工具
+- [**350**星][1m] [Shell] [fanyueciyuan/eazy-for-ss](https://github.com/fanyueciyuan/eazy-for-ss) A Bypassgfw Collection
+- [**345**星][3m] [softwareunderground/awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience) Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome
+- [**342**星][2y] [C++] [ele7enxxh/poc-exp](https://github.com/ele7enxxh/poc-exp) 某些 Android 漏洞的poc/exp
+- [**341**星][2y] [slowmist/eos-bp-nodes-security-checklist](https://github.com/slowmist/eos-bp-nodes-security-checklist) EOS超级节点安全执行指南
+- [**335**星][2y] [PS] [arno0x/powershellscripts](https://github.com/arno0x/powershellscripts) Collection of PowerShell scripts
+- [**335**星][10d] [stamparm/ipsum](https://github.com/stamparm/ipsum) Daily feed of bad IPs (with blacklist hit scores)
+- [**334**星][15d] [PS] [mgeeky/penetration-testing-tools](https://github.com/mgeeky/penetration-testing-tools) A collection of my Penetration Testing scripts, tools, cheatsheets collected over years, used during real-world assignments or collected from various good quality sources.
+- [**332**星][2m] [Jupyter Notebook] [beeva/beeva-best-practices](https://github.com/beeva/beeva-best-practices) Best Practices and Style Guides in BEEVA
+- [**331**星][3y] [Visual Basic .NET] [khr0x40sh/macroshop](https://github.com/khr0x40sh/macroshop) Collection of scripts to aid in delivering payloads via Office Macros. Most are python. See
+- [**331**星][1y] [snyk/vulnerabilitydb](https://github.com/snyk/vulnerabilitydb) Snyk's public vulnerability database
+- [**330**星][11m] [Py] [justicerage/freedomfighting](https://github.com/justicerage/freedomfighting) A collection of scripts which may come in handy during your freedom fighting activities.
+- [**327**星][10m] [pxlpnk/awesome-ruby-security](https://github.com/pxlpnk/awesome-ruby-security) Awesome Ruby Security resources
+- [**327**星][12m] [Py] [secwiki/office-exploits](https://github.com/secwiki/office-exploits) office-exploits Office漏洞集合
+- [**324**星][9m] [JS] [zyszys/awesome-captcha](https://github.com/zyszys/awesome-captcha) Curated list of awesome captcha libraries and captcha crack tools.
+- [**323**星][4m] [PS] [kmkz/pentesting](https://github.com/kmkz/pentesting) 渗透测试技巧
+- [**321**星][3m] [HTML] [eugenekolo/sec-tools](https://github.com/eugenekolo/sec-tools) A set of security related tools
+- [**320**星][3m] [xsleaks/xsleaks](https://github.com/xsleaks/xsleaks) A collection of browser-based side channel attack vectors.
+- [**318**星][13d] [cryptax/confsec](https://github.com/cryptax/confsec) Security, hacking conferences (list)
+- [**316**星][1y] [PHP] [grt1st/wooyun_search](https://github.com/grt1st/wooyun_search) 乌云公开漏洞、知识库搜索 search from wooyun.org
+- [**315**星][2y] [burntmybagel/oscp-prep](https://github.com/burntmybagel/oscp-prep) A list of the resources I use as I get ready for the exam
+- [**315**星][1m] [trimstray/technical-whitepapers](https://github.com/trimstray/technical-whitepapers) 收集：IT白皮书、PPT、PDF、Hacking、Web应用程序安全性、数据库、逆向等
+- [**312**星][11m] [Shell] [swoodford/aws](https://github.com/swoodford/aws) A collection of bash shell scripts for automating various tasks with Amazon Web Services using the AWS CLI and jq.
+- [**310**星][1y] [1522402210/2018-blackhat-tools-list](https://github.com/1522402210/2018-blackhat-tools-list) 2018 BlackHat Tools List
+- [**309**星][2m] [no-github/dork-admin](https://github.com/no-github/dork-admin) 盘点近年来的数据泄露、供应链污染事件
+- [**306**星][2m] [Py] [rhinosecuritylabs/cves](https://github.com/rhinosecuritylabs/cves) A collection of proof-of-concept exploit scripts written by the team at Rhino Security Labs for various CVEs.
+- [**306**星][2y] [Py] [timsutton/python-macadmin-tools](https://github.com/timsutton/python-macadmin-tools) List of open-source Python-based Mac sysadmin tools
+- [**305**星][2y] [Java] [joaomatosf/javadeserh2hc](https://github.com/joaomatosf/javadeserh2hc) Sample codes written for the Hackers to Hackers Conference magazine 2017 (H2HC).
+- [**305**星][3y] [C++] [m0n0ph1/malware-1](https://github.com/m0n0ph1/malware-1) Malware source code samples leaked online uploaded to GitHub for those who want to analyze the code.
+- [**301**星][12m] [Assembly] [guitmz/virii](https://github.com/guitmz/virii) Collection of ancient computer virus source codes
+- [**300**星][11m] [Shell] [ctf-wiki/ctf-tools](https://github.com/ctf-wiki/ctf-tools) CTF 工具集合
+- [**299**星][25d] [JS] [aws-samples/aws-serverless-security-workshop](https://github.com/aws-samples/aws-serverless-security-workshop) In this workshop, you will learn techniques to secure a serverless application built with AWS Lambda, Amazon API Gateway and RDS Aurora. We will cover AWS services and features you can leverage to improve the security of a serverless applications in 5 domains: identity & access management, code, data, infrastructure, logging & monitoring.
+- [**299**星][2y] [C] [pwning/docs](https://github.com/pwning/docs) Tips, Tricks, and Suggestions for Running a CTF
+- [**298**星][1y] [Shell] [yw9381/burp_suite_doc_zh_cn](https://github.com/yw9381/burp_suite_doc_zh_cn) 这是基于Burp Suite官方文档翻译而来的中文版文档
+- [**297**星][5m] [tanprathan/owasp-testing-checklist](https://github.com/tanprathan/owasp-testing-checklist) OWASP based Web Application Security Testing Checklist is an Excel based checklist which helps you to track the status of completed and pending test cases.
+- [**295**星][1y] [findneo/newbie-security-list](https://github.com/findneo/newbie-security-list) 网络安全学习资料，欢迎补充
+- [**295**星][9m] [vysecurity/domainfrontinglists](https://github.com/vysecurity/DomainFrontingLists) A list of Domain Frontable Domains by CDN
+- [**294**星][3y] [lucyoa/ctf-wiki](https://github.com/lucyoa/ctf-wiki) Hacking techniques useful during CTFs
+- [**294**星][7m] [JS] [ma3k4h3d/papers](https://github.com/ma3k4h3d/papers) Some papers about cyber security
+- [**294**星][10m] [HTML] [s1gh/ctf-literature](https://github.com/s1gh/ctf-literature) Collection of free books, papers and articles related to CTF challenges.
+- [**292**星][8m] [Py] [cesar-rodriguez/terrascan](https://github.com/cesar-rodriguez/terrascan) Collection of security and best practice test for static code analysis of terraform templates
+- [**290**星][30d] [C#] [matterpreter/offensivecsharp](https://github.com/matterpreter/offensivecsharp) Collection of Offensive C# Tooling
+- [**289**星][3y] [Py] [dhilipsiva/webapp-checklist](https://github.com/dhilipsiva/webapp-checklist) Technical details that a programmer of a web application should consider before making the site public.
+- [**289**星][15d] [Java] [mr-xn/penetration_testing_poc](https://github.com/mr-xn/penetration_testing_poc) 渗透测试有关的POC、EXP、脚本、提权、小工具等
+- [**287**星][10m] [wallarm/awesome-nginx-security](https://github.com/wallarm/awesome-nginx-security) A curated list of awesome links related to application/API security in NGINX environment.
+- [**286**星][3y] [Py] [nanshihui/poccollect](https://github.com/nanshihui/poccollect) a plenty of poc based on python
+- [**285**星][3y] [HTML] [buddhalabs/packetstorm-exploits](https://github.com/buddhalabs/packetstorm-exploits) Collection of publicly available exploits from Packetstorm
+- [**284**星][3m] [C] [ayeks/sgx-hardware](https://github.com/ayeks/sgx-hardware) This is a list of hardware which is supports Intel SGX - Software Guard Extensions.
+- [**282**星][23d] [PHP] [nico3333fr/csp-useful](https://github.com/nico3333fr/csp-useful) Collection of scripts, thoughts about CSP (Content Security Policy)
+- [**281**星][3m] [C] [0xdea/exploits](https://github.com/0xdea/exploits) 研究员 0xdeadbeef 的公开exploits 收集
+- [**277**星][2y] [Assembly] [tinysec/windows-syscall-table](https://github.com/tinysec/windows-syscall-table)  Win XP 到 Win 10 的系统调用表，包括 SSDT 和 Shadow SSDT
+- [**276**星][4m] [mattnotmax/cyberchef-recipes](https://github.com/mattnotmax/cyberchef-recipes) A list of cyber-chef recipes
+- [**273**星][3m] [JS] [hynekpetrak/javascript-malware-collection](https://github.com/hynekpetrak/javascript-malware-collection) Collection of almost 40.000 javascript malware samples
+- [**272**星][18d] [JS] [ropnop/serverless_toolkit](https://github.com/ropnop/serverless_toolkit) A collection of useful Serverless functions I use when pentesting
+- [**272**星][18d] [zodiacon/alltools](https://github.com/zodiacon/alltools) All reasonably stable tools
+- [**271**星][8m] [offensive-security/nethunter-lrt](https://github.com/offensive-security/nethunter-lrt) The Nethunter Linux Root Toolkit is a collection of bash scripts which install Nethunter onto a supported device.
+- [**270**星][2y] [Java] [reoky/android-crackme-challenge](https://github.com/reoky/android-crackme-challenge) A collection of reverse engineering challenges for learning about the Android operating system and mobile security.
+- [**267**星][2y] [PHP] [sqlmapproject/testenv](https://github.com/sqlmapproject/testenv) A collection of web pages vulnerable to SQL injection flaws
+- [**265**星][13d] [Py] [den4uk/andriller](https://github.com/den4uk/andriller) a collection of forensic tools for smartphones
+- [**260**星][5m] [zhaoweiho/web-sec-interview](https://github.com/zhaoweiho/web-sec-interview) Information Security (Web Security/Penetration Testing Direction) Interview Questions/Solutions 信息安全(Web安全/渗透测试方向)面试题/解题思路
+- [**260**星][1m] [thelsa/cs-checklist](https://github.com/thelsa/cs-checklist) PC客户端（C-S架构）渗透测试checklist / Client side(C-S) penestration checklist
+- [**258**星][24d] [Jupyter Notebook] [aws-samples/aws-security-workshops](https://github.com/aws-samples/aws-security-workshops) A collection of the latest AWS Security workshops
+- [**258**星][30d] [Py] [inforion/idapython-cheatsheet](https://github.com/inforion/idapython-cheatsheet) Scripts and cheatsheets for IDAPython
+- [**258**星][2y] [Go] [netxfly/xsec-ip-database](https://github.com/netxfly/xsec-ip-database) 恶意IP 和域名库。通过爬虫定期拉取网络中公开的恶意ip 库来获取恶意IP和域名，且支持与自有的其他安全产品联动（HIDS、WAF、蜜罐、防火墙等产品），实时更新IP库
+- [**257**星][4y] [C] [roxas75/rxtools](https://github.com/roxas75/rxtools) a collection of hacking tools for Nintendo 3DS/3DSXL/2DS, compatible with all the system versions from 4.1 to 9.2
+- [**256**星][11m] [C++] [ramadhanamizudin/malware](https://github.com/ramadhanamizudin/malware) Malware Samples. Uploaded to GitHub for those want to analyse the code. Code mostly from:
+- [**253**星][5m] [C++] [tonychen56/hackertools](https://github.com/tonychen56/hackertools) 使用MFC编写的病毒技术合集
+- [**252**星][12m] [crytic/awesome-ethereum-security](https://github.com/crytic/awesome-ethereum-security) A curated list of awesome Ethereum security references
+- [**250**星][9m] [0x4d31/awesome-oscp](https://github.com/0x4d31/awesome-oscp) A curated list of awesome OSCP resources
+- [**249**星][1m] [pomerium/awesome-zero-trust](https://github.com/pomerium/awesome-zero-trust) A curated collection of awesome resources for the zero-trust security model.
+- [**246**星][30d] [C++] [strazzere/android-scripts](https://github.com/strazzere/android-scripts) Android逆向脚本收集
+- [**245**星][2y] [ludiosarchive/unfixed-security-bugs](https://github.com/ludiosarchive/unfixed-security-bugs) 已公开但未修复的漏洞列表。包括Chrome、VirtualBox、WeeChat、Windows（7-10）等知名软件。
+- [**244**星][2y] [hsis007/useful_websites_for_pentester](https://github.com/hsis007/useful_websites_for_pentester) This repository is to make life of the pentester easy as it is a collection of the websites that can be used by pentesters for day to day studies and to remain updated.
+- [**244**星][3y] [PHP] [tdifg/webshell](https://github.com/tdifg/webshell) WebShell Collect
+- [**243**星][10m] [accordbox/awesome-scrapy](https://github.com/accordbox/awesome-scrapy) A curated list of awesome packages, articles, and other cool resources from the Scrapy community.
+- [**243**星][2m] [croqaz/awesome-decentralized](https://github.com/croqaz/awesome-decentralized) Awesome distributed, decentralized, p2p apps or tools
+- [**243**星][17d] [euphrat1ca/security_w1k1](https://github.com/euphrat1ca/security_w1k1) collect
+- [**243**星][3y] [misterch0c/awesome-hacking](https://github.com/misterch0c/awesome-hacking) A collection of various awesome lists for hackers, pentesters and security researchers
+- [**241**星][2y] [kinimiwar/penetration-testing](https://github.com/kinimiwar/penetration-testing) List of awesome penetration testing resources, tools and other shiny things
+- [**239**星][16d] [pe3zx/my-infosec-awesome](https://github.com/pe3zx/my-infosec-awesome) My curated list of awesome links, resources and tools on infosec related topics
+- [**236**星][3m] [Py] [boy-hack/airbug](https://github.com/boy-hack/airbug) Airbug(空气洞)，收集漏洞poc用于安全产品
+- [**233**星][8m] [C] [ctz/cifra](https://github.com/ctz/cifra) A collection of cryptographic primitives targeted at embedded use.
+- [**233**星][2y] [wizardforcel/web-hacking-101-zh](https://github.com/wizardforcel/web-hacking-101-zh) 
+- [**231**星][15d] [cpuu/awesome-fuzzing](https://github.com/cpuu/awesome-fuzzing) A curated list of awesome Fuzzing(or Fuzz Testing) for software security
+- [**228**星][6m] [guardrailsio/awesome-dotnet-security](https://github.com/guardrailsio/awesome-dotnet-security) Awesome .NET Security Resources
+- [**227**星][2y] [C#] [t3ntman/social-engineering-payloads](https://github.com/t3ntman/social-engineering-payloads) Collection of social engineering payloads
+- [**224**星][23d] [vixentael/my-talks](https://github.com/vixentael/my-talks) List of my talks and workshops: security engineering, applied cryptography, secure software development
+- [**223**星][3m] [C] [david942j/ctf-writeups](https://github.com/david942j/ctf-writeups) Collection of scripts and writeups
+- [**223**星][15d] [decalage2/awesome-security-hardening](https://github.com/decalage2/awesome-security-hardening) A collection of awesome security hardening guides, tools and other resources
+- [**222**星][14d] [C#] [carlospolop/privilege-escalation-awesome-scripts-suite](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
+- [**222**星][9m] [jesusprubio/awesome-nodejs-pentest](https://github.com/jesusprubio/awesome-nodejs-pentest) Awesome Node.js for pentesters
+- [**222**星][2m] [PS] [tonyphipps/meerkat](https://github.com/tonyphipps/meerkat) A collection of PowerShell modules designed for artifact gathering and reconnaisance of Windows-based endpoints.
+- [**221**星][2y] [sh4hin/mobileapp-pentest-cheatsheet](https://github.com/sh4hin/mobileapp-pentest-cheatsheet) The Mobile App Pentest cheat sheet was created to provide concise collection of high value information on specific mobile application penetration testing topics.
+- [**221**星][5m] [security-checklist/php-security-check-list](https://github.com/security-checklist/php-security-check-list) PHP Security Check List [ EN ]
+- [**219**星][18d] [JS] [strangerealintel/cyberthreatintel](https://github.com/strangerealintel/cyberthreatintel) Analysis of malware and Cyber Threat Intel of APT and cybercriminals groups
+- [**217**星][3m] [CSS] [7dog7/bottleneckosmosis](https://github.com/7dog7/bottleneckosmosis) 瓶颈渗透,web渗透,red红队,fuzz param,注释,js字典,ctf
+- [**217**星][2y] [cure53/browser-sec-whitepaper](https://github.com/cure53/browser-sec-whitepaper) Cure53 Browser Security White Paper
+- [**217**星][2y] [Py] [euphrat1ca/fuzzdb-collect](https://github.com/euphrat1ca/fuzzdb-collect) 网络上安全资源的搜集
+- [**216**星][10m] [puresec/awesome-serverless-security](https://github.com/puresec/awesome-serverless-security) A curated list of awesome serverless security resources such as (e)books, articles, whitepapers, blogs and research papers.
+- [**214**星][13d] [shogunlab/awesome-hyper-v-exploitation](https://github.com/shogunlab/awesome-hyper-v-exploitation) A curated list of Hyper-V exploitation resources, fuzzing and vulnerability research.
+- [**213**星][11m] [jeansgit/redteam](https://github.com/jeansgit/redteam) RedTeam资料收集整理
+- [**209**星][7m] [PHP] [momosecurity/rhizobia_p](https://github.com/momosecurity/rhizobia_p) PHP安全SDK及编码规范
+- [**209**星][1m] [sigp/solidity-security-blog](https://github.com/sigp/solidity-security-blog) Comprehensive list of known attack vectors and common anti-patterns
+- [**207**星][1y] [faizann24/resources-for-learning-hacking](https://github.com/faizann24/resources-for-learning-hacking) All the resources I could find for learning Ethical Hacking and penetration testing.
+- [**207**星][15d] [vschiavoni/sgx-papers](https://github.com/vschiavoni/sgx-papers) A list of system papers using/about Intel SGX
+- [**204**星][2y] [evnm/research-in-production](https://github.com/evnm/research-in-production) A collection of research papers categorized by real-world systems that enact them
+- [**201**星][13d] [anudeepnd/blacklist](https://github.com/anudeepnd/blacklist) Curated and well-maintained host file to block ads, tracking, cryptomining and more! Updated regularly.
+- [**201**星][1y] [Py] [sec-bit/awesome-buggy-erc20-tokens](https://github.com/sec-bit/awesome-buggy-erc20-tokens) A Collection of Vulnerabilities in ERC20 Smart Contracts With Tokens Affected
+- [**200**星][1y] [iamcryptoki/snowden-archive](https://github.com/iamcryptoki/snowden-archive) 
+- [**199**星][4y] [Java] [pwntester/serialkillerbypassgadgetcollection](https://github.com/pwntester/serialkillerbypassgadgetcollection) Collection of bypass gadgets to extend and wrap ysoserial payloads
+- [**198**星][1m] [F#] [b2r2-org/b2r2](https://github.com/b2r2-org/b2r2) B2R2 is a collection of useful algorithms, functions, and tools for binary analysis.
+- [**198**星][10m] [hannoch/scaner](https://github.com/hannoch/scaner) 开源扫描器的集合，包括子域枚举、数据库漏洞扫描器、弱密码或信息泄漏扫描器、端口扫描器、指纹扫描器以及其他大规模扫描仪、模块扫描器等。对于其他著名的扫描工具，如：awvs、nmap，w3af将不包含在集合范围内。
+- [**198**星][5y] [rutkai/pentest-bookmarks](https://github.com/rutkai/pentest-bookmarks) A collection of penetration testing related sites
+- [**197**星][1y] [Py] [pstirparo/mac4n6](https://github.com/pstirparo/mac4n6) Collection of forensics artifacs location for Mac OS X and iOS
+- [**196**星][4m] [jdonsec/allthingsssrf](https://github.com/jdonsec/allthingsssrf) This is a collection of writeups, cheatsheets, videos, books related to SSRF in one single location
+- [**196**星][3m] [noorqureshi/kali-linux-cheatsheet](https://github.com/noorqureshi/kali-linux-cheatsheet) Kali Linux Cheat Sheet for Penetration Testers
+- [**196**星][10m] [zardus/wargame-nexus](https://github.com/zardus/wargame-nexus) An sorted and updated list of security wargame sites.
+- [**195**星][9m] [Py] [lingerhk/hacking_script](https://github.com/lingerhk/hacking_script) 开发或收集的一些网络安全方面的脚本、小工具
+- [**195**星][12m] [JS] [zer4tul/hacker-howto](https://github.com/zer4tul/hacker-howto) 本文原文由知名Hacker Eric S. Raymond 所撰写，教你如何成为一名黑客。
+- [**194**星][1y] [HTML] [yaseng/iot-security-wiki](https://github.com/yaseng/iot-security-wiki) IOT security wiki
+- [**193**星][4m] [ObjC] [riusksk/secconarchive](https://github.com/riusksk/secconarchive) Security Conference Archive
+- [**192**星][4m] [Py] [jrspruitt/ubi_reader](https://github.com/jrspruitt/ubi_reader) Collection of Python scripts for reading information about and extracting data from UBI and UBIFS images.
+- [**192**星][7m] [pochubs/pochubs](https://github.com/pochubs/pochubs) PocHubs是为了整合网上知名开源框架的漏洞详细和POC
+- [**188**星][4y] [Lua] [automayt/ics-pcap](https://github.com/automayt/ics-pcap) ICS/SCADA PCAP收集
+- [**186**星][2m] [feeicn/securityinterviewquestions](https://github.com/feeicn/securityinterviewquestions) 网络信息安全从业者面试指南（持续补充各公司招聘题目和侧重点）
+- [**186**星][1y] [yellowbyte/analysis-of-anti-analysis](https://github.com/yellowbyte/analysis-of-anti-analysis) writings on anti-reverse engineering
+- [**185**星][3m] [Py] [naategh/pyck](https://github.com/naategh/pyck) A collection of useful Python hacking scripts for beginners
+- [**184**星][15d] [enovella/tee-reversing](https://github.com/enovella/tee-reversing) A curated list of public TEE resources for learning how to reverse-engineer and achieve trusted code execution on ARM devices
+- [**184**星][14d] [fkie-cad/awesome-embedded-and-iot-security](https://github.com/fkie-cad/awesome-embedded-and-iot-security) A curated list of awesome embedded and IoT security resources.
+- [**184**星][3y] [Py] [wavestone-cdt/hadoop-attack-library](https://github.com/wavestone-cdt/hadoop-attack-library) A collection of pentest tools and resources targeting Hadoop environments
+- [**183**星][4m] [radareorg/r2con](https://github.com/radareorg/r2con) Radare Congress Stuff
+- [**182**星][10m] [Py] [hasecuritysolutions/logstash](https://github.com/hasecuritysolutions/logstash) Contains Logstash related content including tons of Logstash configurations
+- [**182**星][3m] [mre/awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis) A curated list of dynamic analysis tools for various programming languages
+- [**181**星][2y] [PHP] [lcatro/php-webshell-bypass-waf](https://github.com/lcatro/php-webshell-bypass-waf) 分享PHP WebShell 绕过WAF 的一些经验
+- [**180**星][8m] [pandazheng/threat-intelligence-analyst](https://github.com/pandazheng/threat-intelligence-analyst) 威胁情报，恶意样本分析，开源Malware代码收集
+- [**179**星][2y] [CSS] [bhdresh/socialengineeringpayloads](https://github.com/bhdresh/socialengineeringpayloads) This is a collection of social engineering tricks and payloads being used for credential theft and spear phishing attacks.
+- [**177**星][2y] [Py] [duo-labs/idapython](https://github.com/duo-labs/idapython) Duo 实验室使用的IDAPython 脚本收集
+    - [cortex_m_firmware](https://github.com/duo-labs/idapython/blob/master/cortex_m_firmware.py)  整理包含ARM Cortex M微控制器固件的IDA Pro数据库
+    - [amnesia](https://github.com/duo-labs/idapython/blob/master/amnesia.py) 使用字节级启发式在IDA Pro数据库中的未定义字节中查找ARM Thumb指令
+    - [REobjc](https://github.com/duo-labs/idapython/blob/master/reobjc.py) 在Objective-C的调用函数和被调用函数之间进行适当的交叉引用
+- [**176**星][7y] [Py] [gdssecurity/gwt-penetration-testing-toolset](https://github.com/gdssecurity/gwt-penetration-testing-toolset) 辅助渗透测试GWT程序的3个工具
+- [**175**星][9m] [guardrailsio/awesome-java-security](https://github.com/guardrailsio/awesome-java-security) Awesome Java Security Resources
+- [**175**星][18d] [winmin/awesome-vm-exploit](https://github.com/winmin/awesome-vm-exploit) share some useful archives about vm and qemu escape exploit.
+- [**174**星][2m] [chbrian/awesome-adversarial-examples-dl](https://github.com/chbrian/awesome-adversarial-examples-dl) A curated list of awesome resources for adversarial examples in deep learning
+- [**170**星][10m] [thehackingsage/hackdroid](https://github.com/thehackingsage/hackdroid) Penetration Testing Apps for Android
+- [**169**星][3y] [Py] [northernsec/cve-scan](https://github.com/northernsec/cve-scan) Scan systems with NMap and parse the output to a list of CVE's, CWE's and DPE's
+- [**168**星][12m] [Py] [mnkgrover08-zz/whatsapp_automation](https://github.com/mnkgrover08-zz/whatsapp_automation) Whatsapp Automation is a collection of APIs that interact with WhatsApp messenger running in an Android emulator, allowing developers to build projects that automate sending and receiving messages, adding new contacts and broadcasting messages multiple contacts.
+- [**168**星][2y] [Py] [monrocoury/forensic-tools](https://github.com/monrocoury/forensic-tools) A collection of tools for forensic analysis
+- [**167**星][1m] [Py] [botherder/targetedthreats](https://github.com/botherder/targetedthreats) Collection of IOCs related to targeting of civil society
+- [**167**星][2y] [C++] [mortenschenk/bhusa2017](https://github.com/mortenschenk/bhusa2017) Content from presentation at BHUSA 2017
+- [**166**星][7m] [Ruby] [r00t-3xp10it/msf-auxiliarys](https://github.com/r00t-3xp10it/msf-auxiliarys) My collection of metasploit auxiliary post-modules
+- [**164**星][3m] [mdrights/digital-rights](https://github.com/mdrights/digital-rights) 抵抗国家机器对公民的监控
+- [**163**星][3y] [Py] [ctfs/write-ups-tools](https://github.com/ctfs/write-ups-tools) A collection of tools used to maintain and create CTF write-up folders
+- [**163**星][2y] [secwiki/hack-movie](https://github.com/secwiki/hack-movie) 黑客相关的电视剧/电影/纪录片
+- [**161**星][2y] [javierolmedo/shodan-filters](https://github.com/javierolmedo/shodan-filters) A list of shodan filters
+- [**161**星][1y] [splunk/botsv1](https://github.com/splunk/botsv1) A sample security dataset and CTF platform
+- [**161**星][7m] [C#] [xorrior/random-csharptools](https://github.com/xorrior/random-csharptools) Collection of CSharp Assemblies focused on Post-Exploitation Capabilities
+- [**160**星][1y] [HTML] [exploitprotocol/mobile-security-wiki](https://github.com/exploitprotocol/mobile-security-wiki) 
+- [**159**星][1y] [joychou93/sks](https://github.com/joychou93/sks) Security Knowledge Structure(安全知识汇总)
+- [**159**星][3y] [Py] [nneonneo/eqgrp-free-file](https://github.com/nneonneo/eqgrp-free-file) Free sampling of files from the purported Equation Group hack.
+- [**159**星][6m] [samanl33t/awesome-mainframe-hacking](https://github.com/samanl33t/awesome-mainframe-hacking) List of Awesome Mainframe Hacking/Pentesting Resources
+- [**158**星][4m] [HTML] [zer0yu/berserker](https://github.com/zer0yu/berserker) A list of useful payloads for Web Application Security and Pentest/CTF
+- [**157**星][9m] [dckc/awesome-ocap](https://github.com/dckc/awesome-ocap) Awesome Object Capabilities andCapability-based Security
+- [**156**星][1y] [YARA] [mikesxrs/open-source-yara-rules](https://github.com/mikesxrs/open-source-yara-rules) YARA Rules I come across on the internet
+- [**156**星][2y] [PS] [psconfeu/2018](https://github.com/psconfeu/2018) PowerShell Conference Europe 2018 Slides and Demo Scripts
+- [**156**星][2y] [ASP] [testsecer/webshell](https://github.com/testsecer/webshell) 这是一个WebShell收集项目
+- [**154**星][3y] [zbetcheckin/pdf_analysis](https://github.com/zbetcheckin/pdf_analysis) Several PDF analysis reassembled with additional tips and tools
+- [**151**星][1y] [chryzsh/awesome-windows-security](https://github.com/chryzsh/awesome-windows-security) List of Awesome Windows Security Resources
+- [**151**星][3y] [C] [pustladi/windows-2000](https://github.com/pustladi/windows-2000) Windows 2000专业版的源码
+- [**151**星][7m] [shramos/awesome-cybersecurity-datasets](https://github.com/shramos/awesome-cybersecurity-datasets) A curated list of amazingly awesome Cybersecurity datasets
+- [**150**星][1y] [brucetg/app_security](https://github.com/brucetg/app_security) 
+- [**150**星][2y] [dragonquesthero/awesome-windows-security-development](https://github.com/dragonquesthero/awesome-windows-security-development) awesome-windows-security-development
+- [**150**星][2m] [leonjza/awesome-nmap-grep](https://github.com/leonjza/awesome-nmap-grep) Awesome Nmap Grep
+- [**150**星][2y] [Py] [malwaretech/trickbot-toolkit](https://github.com/malwaretech/trickbot-toolkit) A collection of tools for dealing with TrickBot
+- [**149**星][6y] [C++] [kaiserfarrell/malware](https://github.com/kaiserfarrell/malware) virus collection source code
+- [**148**星][11m] [Shell] [aturl/awesome-anti-gfw](https://github.com/aturl/awesome-anti-gfw) 突破网络审查和封锁的开源工具清单。
+- [**148**星][7m] [Shell] [petermosmans/security-scripts](https://github.com/petermosmans/security-scripts) A collection of security related Python and Bash shell scripts. Analyze hosts on generic security vulnerabilities. Wrapper around popular tools like nmap (portscanner), nikto (webscanner) and testssl.sh (SSL/TLS scanner)
+- [**147**星][14d] [Shell] [recolic/awesome-hust](https://github.com/recolic/awesome-hust) HUST experiments, reports, and useful tools.
+- [**147**星][1m] [security-cheatsheet/reverse-shell-cheatsheet](https://github.com/security-cheatsheet/reverse-shell-cheatsheet) 
+- [**146**星][2m] [bin2415/fuzzing_paper](https://github.com/bin2415/fuzzing_paper) puzzing related paper
+- [**145**星][2y] [chan9390/awesome-mitm](https://github.com/chan9390/awesome-mitm) Curated List of MitM frameworks on GitHub
+- [**145**星][3m] [Py] [ripe-atlas-community/ripe-atlas-community-contrib](https://github.com/ripe-atlas-community/ripe-atlas-community-contrib) Repository for links towards tools written during hackathons, and a collection of contributions by the community of the RIPE Atlas visualizations, tools for analysing measurements data and other scripts
+- [**145**星][3y] [PHP] [webshellpub/awsome-webshell](https://github.com/webshellpub/awsome-webshell) webshell样本大合集。收集各种webshell用于webshell分析与发现
+- [**144**星][10m] [Py] [kacperszurek/exploits](https://github.com/kacperszurek/exploits) 提权漏洞利用集合
+- [**142**星][3y] [C] [mdsecresearch/publications](https://github.com/mdsecresearch/publications) A list of published research documents
+- [**142**星][3y] [kejane/securityrss](https://github.com/kejane/SecurityRSS) 网络安全相关的RSS订阅列表
+- [**141**星][6m] [C++] [oatpp/oatpp-examples](https://github.com/oatpp/oatpp-examples) List of example projects of how to use oat++ framework
+- [**140**星][1y] [laxa/hackingtools](https://github.com/laxa/hackingtools) Exhaustive list of hacking tools
+- [**140**星][8y] [stefanesser/ida-ios-toolkit](https://github.com/stefanesser/ida-ios-toolkit) 辅助处理iOS kernelcache的IDAPython收集
+- [**139**星][29d] [pomerium/awesome-security-audits](https://github.com/pomerium/awesome-security-audits) A collection of public security audits.
+- [**138**星][2y] [Py] [duoergun0729/3book](https://github.com/duoergun0729/3book) 《Web安全之强化学习与GAN》
+- [**137**星][11d] [Py] [omegak2/pypoe](https://github.com/omegak2/pypoe) Collection of Python Tools for Path of Exile
+- [**136**星][8m] [gaerae/awesome-algorithms-education](https://github.com/gaerae/awesome-algorithms-education) A curated list to learning and practicing about algorithm.
+- [**136**星][3y] [kurobeats/pentest-bookmarks](https://github.com/kurobeats/pentest-bookmarks) Open Penetration Testing Bookmarks Collection
+- [**136**星][2m] [Py] [wudimahua/firewall](https://github.com/wudimahua/firewall) 美国国家安全局NSA下属方程式黑客组织（Equation Group）被The Shadow Brokers（影子经纪人）hack出来的并免费分享的源码
+- [**135**星][6m] [Makefile] [cirosantilli/arm-assembly-cheat](https://github.com/cirosantilli/arm-assembly-cheat) MOVED TO:
+- [**135**星][11m] [PS] [securemode/invoke-apex](https://github.com/securemode/invoke-apex) A PowerShell-based toolkit and framework consisting of a collection of techniques and tradecraft for use in red team, post-exploitation, adversary simulation, or other offensive security tasks.
+- [**135**星][2y] [thec00n/smart-contract-honeypots](https://github.com/thec00n/smart-contract-honeypots) 智能合约蜜罐收集
+- [**135**星][1y] [Shell] [onmyway133/swiftsnippets](https://github.com/onmyway133/SwiftSnippets) A collection of Swift snippets to be used in Xcode 
+- [**134**星][3y] [aqzt/sso](https://github.com/aqzt/sso) 项目主要是汇集整理服务器安全运维规范，包括运维工程师必须遵守的规范、服务器运维中注意事项、故障避免手段等文档，帮助运维工程师避免服务器安全和运维故障，方便运维工程师学习成长。
+- [**133**星][3y] [C++] [chenenyu/androidsecurity](https://github.com/chenenyu/androidsecurity) Android安全实践
+- [**133**星][2m] [jlopp/physical-bitcoin-attacks](https://github.com/jlopp/physical-bitcoin-attacks) A list of known attacks against Bitcoin / crypto asset owning entities that occurred in meatspace.
+- [**133**星][10d] [Shell] [adroitadorkhan/energizedprotection](https://github.com/AdroitAdorKhan/EnergizedProtection) A merged collection of hosts from reputable sources. #StayEnergized!
+- [**132**星][2y] [C#] [m0xiaoxi/ctftools](https://github.com/m0xiaoxi/ctftools) 本项目主要搜集一些关于信息安全攻防相关的知识与工具，便于个人的渗透工作。
+- [**131**星][2y] [HTML] [chybeta/waf-bypass](https://github.com/chybeta/waf-bypass) WAF Bypass Cheatsheet
+- [**131**星][10m] [HTML] [minhaskamal/cuteviruscollection](https://github.com/minhaskamal/cuteviruscollection) A Collection of Cute But Deadly Viruses (small-unharmful-annoying-harmless-funny-malware-virus-worm-windows-xp-7-10)
+- [**131**星][11m] [C] [regehr/ub-canaries](https://github.com/regehr/ub-canaries) collection of C/C++ programs that try to get compilers to exploit undefined behavior
+- [**130**星][30d] [inquest/yara-rules](https://github.com/inquest/yara-rules) A collection of YARA rules we wish to share with the world, most probably referenced from
+- [**130**星][1y] [PS] [xor-function/fathomless](https://github.com/xor-function/fathomless) A collection of post-exploitation tools for network red teaming. (Migrating to Fathomless Project)
+- [**128**星][2y] [mawenjian/china-cdn-domain-whitelist](https://github.com/mawenjian/china-cdn-domain-whitelist) 中国CDN服务提供商域名白名单（China CDN Service Providers' Domain Whitelist）
+- [**127**星][10m] [whid-injector/awesome-go-offensive-tools](https://github.com/whid-injector/awesome-go-offensive-tools) List of Awesome Offensive Tools written in GO
+- [**126**星][3m] [HTML] [sundaysec/android-exploits](https://github.com/sundaysec/android-exploits) A collection of android Exploits and Hacks
+- [**123**星][2m] [HTML] [edoverflow/proof-of-concepts](https://github.com/edoverflow/proof-of-concepts) A little collection of fun and creative proof of concepts to demonstrate the potential impact of a security vulnerability.
+- [**123**星][2y] [we5ter/awesome-platforms](https://github.com/we5ter/awesome-platforms) A curated list of awesome security platforms,including CTF/Security Response Center/Bug Tracker and so on.
+- [**123**星][2y] [Shell] [averagesecurityguy/cheat-sheets](https://github.com/averagesecurityguy/cheat-sheets) Various Cheat Sheets related to development and security
+- [**122**星][1y] [nagwww/s3-leaks](https://github.com/nagwww/s3-leaks) List of S3 Hacks
+- [**121**星][1y] [PHP] [a0xnirudh/kurukshetra](https://github.com/a0xnirudh/kurukshetra) 通过交互式解决问题的方式来学习安全编程
+- [**121**星][4y] [Py] [fengxuangit/dede_exp_collect](https://github.com/fengxuangit/dede_exp_collect) collection dedecms exp use pocsuite framework 收集织梦的一些漏洞，并用pocsuite框架写出利用程序。打造一键日dede
+- [**121**星][16d] [HTML] [mozillasecurity/fuzzmanager](https://github.com/mozillasecurity/fuzzmanager) A fuzzing management tools collection
+- [**121**星][4y] [sandysekharan/ctf-tool](https://github.com/sandysekharan/ctf-tool) A curated list of Capture The Flag (CTF) frameworks, libraries, resources and softwares.
+- [**120**星][10m] [byt3bl33d3r/ansibleplaybooks](https://github.com/byt3bl33d3r/ansibleplaybooks) A collection of Ansible Playbooks that configure Kali to use Fish & install a number of tools
+- [**118**星][7m] [fabionoth/awesome-cyber-security](https://github.com/fabionoth/awesome-cyber-security) A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.
+- [**118**星][1y] [lua] [tanjiti/icstools](https://github.com/tanjiti/icstools) ics security tools
+- [**117**星][9m] [marcosvalle/awesome-windows-red-team](https://github.com/marcosvalle/awesome-windows-red-team) A curated list of awesome Windows frameworks, libraries, software and resources for Red Teams
+- [**117**星][4m] [PS] [thom-s/netsec-ps-scripts](https://github.com/thom-s/netsec-ps-scripts) Collection of PowerShell network security scripts for system administrators.
+- [**116**星][2m] [govanguard/list-pentest-tools](https://github.com/govanguard/list-pentest-tools) A curated list of network penetration testing tools.
+- [**111**星][1m] [firmianay/security-paper](https://github.com/firmianay/security-paper) （与本人兴趣强相关的）各种安全or计算机资料收集
+- [**110**星][3m] [C++] [x64dbg/scripts](https://github.com/x64dbg/scripts) A collection of x64dbg scripts. Feel free to submit a pull request to add your script.
+- [**108**星][8m] [binject/awesome-go-security](https://github.com/binject/awesome-go-security) A dedicated place for cool golang security projects
+- [**108**星][2y] [Ruby] [porterhau5/bloodhound-owned](https://github.com/porterhau5/bloodhound-owned) A collection of files for adding and leveraging custom properties in BloodHound.
+- [**107**星][3m] [ajvb/awesome-tor](https://github.com/ajvb/awesome-tor) A list of awesome Tor related projects, articles, papers, etc
+- [**105**星][4m] [Py] [ex16x41/oscp-prep](https://github.com/ex16x41/oscp-prep) my oscp prep collection
+- [**105**星][2y] [gossithedog/threathunting](https://github.com/gossithedog/threathunting) Tools for hunting for threats.
+- [**105**星][4m] [soffensive/windowsblindread](https://github.com/soffensive/windowsblindread) A list of files / paths to probe when arbitrary files can be read on a Microsoft Windows operating system
+- [**104**星][3y] [Py] [landgrey/taoman](https://github.com/landgrey/taoman) 快速收集
+- [**103**星][3y] [C++] [azuregreen/injectcollection](https://github.com/azuregreen/injectcollection) A collection of injection via vc++ in ring3
+- [**102**星][8m] [fox-it/cobaltstrike-extraneous-space](https://github.com/fox-it/cobaltstrike-extraneous-space) Historical list of {Cobalt Strike,NanoHTTPD} servers
+- [**102**星][13d] [houjingyi233/cpu-vulnerability-collections](https://github.com/houjingyi233/CPU-vulnerability-collections) 
+- [**102**星][3m] [ashemery/linuxforensics](https://github.com/ashemery/LinuxForensics) Everything related to Linux Forensics
+- [**102**星][13d] [chryzsh/awesome-bloodhound](https://github.com/chryzsh/awesome-bloodhound) A curated list of awesome BloodhoundAD resources
+- [**101**星][2m] [jonaschn/awesome-he](https://github.com/jonaschn/awesome-he)    A curated list of amazing Homomorphic Encryption libraries, software and resources
+- [**101**星][4m] [xx0hcd/malleable-c2-profiles](https://github.com/xx0hcd/malleable-c2-profiles) Cobalt Strike - Malleable C2 Profiles. A collection of profiles used in different projects using Cobalt Strike
+- [**100**星][5y] [Py] [blasty/moneyshot](https://github.com/blasty/moneyshot) A collection of python scripts to aid you in the final steps of binary exploitation or during the construction of buffers.
+- [**100**星][17d] [Ruby] [hahwul/mad-metasploit](https://github.com/hahwul/mad-metasploit) Metasploit custom modules, plugins, resource script and.. awesome metasploit collection
+- [**99**星][19d] [TeX] [misp/misp-training](https://github.com/misp/misp-training) MISP trainings, threat intel and information sharing training materials with source code
+- [**99**星][10y] [C] [tecknicaltom/dsniff](https://github.com/tecknicaltom/dsniff) dsniff is a collection of tools for network auditing and penetration testing.
+- [**99**星][2y] [PS] [testingpens/malwarepersistencescripts](https://github.com/testingpens/malwarepersistencescripts) A collection of scripts I've written to help red and blue teams with malware persistence techniques.
+- [**98**星][3m] [byt3bl33d3r/slides](https://github.com/byt3bl33d3r/slides) Slides from various talks that I've given over the years
+- [**98**星][2y] [Py] [leesoh/yams](https://github.com/leesoh/yams) A collectionof Ansible roles for automating infosec builds.
+- [**97**星][2y] [Shell] [chorankates/h4ck](https://github.com/chorankates/h4ck) a collection of writeups and tools related to ~embedded device ~hacking
+- [**97**星][1y] [Py] [njcx/pocsuite_poc_collect](https://github.com/njcx/pocsuite_poc_collect) 收集一些 poc with pocsuite框架
+- [**97**星][3y] [C] [s4n7h0/practical-reverse-engineering-using-radare2](https://github.com/s4n7h0/practical-reverse-engineering-using-radare2) Training Materials of Practical Reverse Engineering using Radare2
+- [**97**星][4y] [Java] [zencodex/hack-android](https://github.com/zencodex/hack-android) Collection tools for hack android, java
+- [**96**星][3m] [geeksonsecurity/vuln-web-apps](https://github.com/geeksonsecurity/vuln-web-apps) A curated list of vulnerable web applications.
+- [**96**星][2y] [Java] [jgillam/burp-co2](https://github.com/jgillam/burp-co2) A collection of enhancements for Portswigger's popular Burp Suite web penetration testing tool.
+- [**95**星][2y] [C] [cetfor/antidbg](https://github.com/cetfor/antidbg) A bunch of Windows anti-debugging tricks.
+- [**95**星][3m] [PHP] [commixproject/commix-testbed](https://github.com/commixproject/commix-testbed) A collection of web pages, vulnerable to command injection flaws.
+- [**95**星][5y] [Py] [nihilus/ida-idc-scripts](https://github.com/nihilus/ida-idc-scripts) 多个IDC脚本收集
+- [**94**星][14d] [Py] [alanvivona/pwnshop](https://github.com/alanvivona/pwnshop) Exploit Development and Reverse Engineering topics
+- [**94**星][10d] [Py] [endermanch/malwaredatabase](https://github.com/endermanch/malwaredatabase) This repository is one of a few malware collections on the GitHub.
+- [**94**星][2y] [ObjC] [r0ysue/osg-teams](https://github.com/r0ysue/osg-teams) 希望大家在合作中学习姿势、提升技术、交流感情。比赛第二，友谊第一。
+- [**93**星][5y] [Py] [debasishm89/hack_audio_captcha](https://github.com/debasishm89/hack_audio_captcha) Collection of Scripts written to Solve/Crack Audio reCapcha Challenges
+- [**93**星][4y] [Py] [groundworkstech/pybfd](https://github.com/groundworkstech/pybfd) A Python interface to the GNU Binary File Descriptor (BFD) library.
+- [**93**星][23d] [Py] [log2timeline/dftimewolf](https://github.com/log2timeline/dftimewolf) A framework for orchestrating forensic collection, processing and data export
+- [**92**星][2m] [PS] [dbheise/vm_setup](https://github.com/dbheise/vm_setup) A collection of scripts to initialize a windows VM to run all the malwares!
+- [**92**星][1y] [PS] [rasta-mouse/aggressor-script](https://github.com/rasta-mouse/aggressor-script) Collection of Aggressor Scripts for Cobalt Strike
+- [**92**星][2y] [PS] [sadprocessor/empiredog](https://github.com/sadprocessor/empiredog) A collection of PowerShell Modules for BloodHound/Empire Orchestration
+- [**92**星][2y] [C] [secwiki/android-kernel-exploits](https://github.com/secwiki/android-kernel-exploits) android kernel exploits漏洞集合
+- [**91**星][1y] [001spartan/aggressor_scripts](https://github.com/001spartan/aggressor_scripts) A collection of useful scripts for Cobalt Strike
+- [**91**星][2y] [grrrdog/tls-redirection](https://github.com/grrrdog/tls-redirection) raise awareness of a little-known group of attacks, TLS redirection / Virtual Host Confusion, and to bring all the information related to this topic together.
+- [**91**星][6m] [C++] [niklasb/sploits](https://github.com/niklasb/sploits) 
+- [**91**星][2y] [PS] [russelltomkins/active-directory](https://github.com/russelltomkins/active-directory) Collection of scripts for Querying and Managing Active Directory and Domain Controllers
+- [**90**星][10m] [pandazheng/securitysite](https://github.com/pandazheng/securitysite) 收集了一些安全公司的博客
+- [**90**星][3m] [Py] [radareorg/r2con2019](https://github.com/radareorg/r2con2019) slides and materials
+- [**90**星][1m] [payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list) SQL Injection Payload List
+- [**89**星][8m] [Shell] [hannob/tlshelpers](https://github.com/hannob/tlshelpers) A collection of shell scripts that help handling X.509 certificate and TLS issues
+- [**89**星][12m] [paralax/awesome-internet-scanning](https://github.com/paralax/awesome-internet-scanning) A curated list of awesome Internet port and host scanners, plus related components and much more, with a focus on free and open source projects.
+- [**89**星][19d] [C++] [sinakarvandi/process-magics](https://github.com/sinakarvandi/process-magics) This is a collection of interesting codes about Windows Process creation.
+- [**88**星][19d] [claucece/useful-crypto-resources](https://github.com/claucece/useful-crypto-resources) A place for useful crypto-related resources plus some of my fav stuff
+- [**88**星][4y] [dantaler/detectionstring](https://github.com/dantaler/detectionstring) list of sql-injection and XSS strings
+- [**88**星][6m] [v-p-b/avpwn](https://github.com/v-p-b/avpwn) List of real-world threats against endpoint protection software
+- [**88**星][1y] [TeX] [zxgio/r2-cheatsheet](https://github.com/zxgio/r2-cheatsheet) Radare2 cheat-sheet
+- [**87**星][9m] [Py] [laconicwolf/burp-extensions](https://github.com/laconicwolf/burp-extensions) A collection of scripts to extend Burp Suite
+- [**86**星][3y] [aidanharris/free-security-ebooks-from-packtpub](https://github.com/aidanharris/free-security-ebooks-from-packtpub) Collection of free Security eBooks from Packt Publishing [Regularly Updated]
+- [**86**星][5m] [chrisdiana/awesome-odroid-go](https://github.com/chrisdiana/awesome-odroid-go)  A collection of awesome ODROID-GO emulators, games and resources
+- [**86**星][9m] [nongiach/awesome-cryptocurrency-security](https://github.com/nongiach/awesome-cryptocurrency-security) Awesome cryptocurrency security
+- [**86**星][1y] [HTML] [radareorg/r2con2018](https://github.com/radareorg/r2con2018) 
+- [**85**星][10d] [caledoniaproject/awesome-opensource-security](https://github.com/caledoniaproject/awesome-opensource-security) A list of interesting stuffs that I have no time to test/review
+- [**85**星][1y] [ckjbug/kali-linux-learning](https://github.com/ckjbug/kali-linux-learning) 
+- [**85**星][2y] [palmercluff/qemu-images](https://github.com/palmercluff/qemu-images) A collection of disk images and virtual machines that can be used by the QEMU emulator
+- [**85**星][1y] [santosomar/who_and_what_to_follow](https://github.com/santosomar/who_and_what_to_follow) Who and what to follow in the world of cyber security
+- [**83**星][9m] [kai5263499/awesome-container-security](https://github.com/kai5263499/awesome-container-security) Awesome list of resources related to container security
+- [**83**星][2y] [Py] [am0nsec/exploit](https://github.com/am0nsec/exploit) Collection of different exploits
+- [**83**星][17d] [allsafecybersecurity/awesome-ghidra](https://github.com/allsafecybersecurity/awesome-ghidra) A curated list of awesome Ghidra materials
+- [**82**星][4m] [blockchainlabsnz/awesome-solidity](https://github.com/blockchainlabsnz/awesome-solidity) A curated list of awesome Solidity resources
+- [**82**星][9m] [Py] [ciscodevnet/virlutils](https://github.com/ciscodevnet/virlutils) 
+- [**82**星][11m] [sderosiaux/guidelines-to-create-a-strong-website](https://github.com/sderosiaux/guidelines-to-create-a-strong-website) A list of all things to consider when making a website or webapp of quality.
+- [**82**星][14d] [yingtongdou/graph-adversarial-learning-literature](https://github.com/yingtongdou/graph-adversarial-learning-literature) A curated list of adversarial attacks and defenses papers on graph-structured data.
+- [**82**星][21d] [alphaseclab/sec-tool-list](https://github.com/alphaseclab/sec-tool-list) Almost 18K security related open source tools, sorted by star count. Both in markdown and json format.
+- [**81**星][4y] [fabiobaroni/awesome-chinese-infosec-websites](https://github.com/fabiobaroni/awesome-chinese-infosec-websites) A curated list of Chinese websites and personal blogs about ethical hacking and pentesting
+- [**81**星][3y] [Py] [januzellij/hopperscripts](https://github.com/januzellij/hopperscripts) Collection of scripts I use in the Hopper disassembler
+- [**81**星][1m] [ObjC] [poomsmart/idaobjctypes](https://github.com/poomsmart/idaobjctypes) A collection of types & functions definitions useful for Objective-C binaries analysis.
+- [**79**星][2y] [iamhdt/ecommerce-website-security-checklist](https://github.com/iamhdt/ecommerce-website-security-checklist) List of considerations for commerce site auditing and security teams. This is summary of action points and areas that need to be built into the Techinical Specific Document, or will be checked in the Security testing phases.
+- [**79**星][2y] [Py] [imiyoo2010/teye_scanner_for_book](https://github.com/imiyoo2010/teye_scanner_for_book) 《白帽子讲Web扫描》书籍参考代码
+- [**79**星][3y] [yeyintminthuhtut/awesome-study-resources-for-kernel-hacking](https://github.com/yeyintminthuhtut/awesome-study-resources-for-kernel-hacking) Kernel Hacking study materials collection
+- [**78**星][6y] [CSS] [gajus/bugger](https://github.com/gajus/bugger) Bugger is a collection of functions for debugging PHP code.
+- [**78**星][3y] [HTML] [malqr/malqr.github.io](https://github.com/malqr/malqr.github.io) MalQR is a collection of malicious QR Codes and Barcodes you can use to test the security of your scanners.
+- [**78**星][3y] [Py] [securitystreak/security-scripts](https://github.com/securitystreak/security-scripts) A collection of public offensive and defensive security related scripts for InfoSec students.
+- [**77**星][4y] [HTML] [f47h3r/hackingteam_exploits](https://github.com/f47h3r/hackingteam_exploits) Initial Collection of HackingTeam Exploits
+- [**76**星][4y] [hardhatdigital/rails-security-audit](https://github.com/hardhatdigital/rails-security-audit) A checklist of Rails security audit
+- [**76**星][4m] [ivbeg/awesome-forensicstools](https://github.com/ivbeg/awesome-forensicstools) Awesome list of digital forensic tools
+- [**76**星][10m] [misterch0c/crimeboards](https://github.com/misterch0c/crimeboards) A list of private and public (more or less) blackhat boards
+- [**76**星][4m] [ivbeg/awesome-forensicstools](https://github.com/ivbeg/awesome-forensicstools) Awesome list of digital forensic tools
+- [**75**星][2y] [HTML] [cyberheartmi9/payloadsallthethings](https://github.com/cyberheartmi9/payloadsallthethings) 
+- [**75**星][9m] [edelahozuah/awesome-wifi-security](https://github.com/edelahozuah/awesome-wifi-security) A collection of awesome resources related to 802.11 security, tools and other things
+- [**75**星][4m] [gouveaheitor/awesome-biohacking](https://github.com/gouveaheitor/awesome-biohacking)  a awesome collection about Biohacking.
+- [**75**星][3m] [C++] [shellvm/shellvm](https://github.com/shellvm/shellvm) A collection of LLVM transform and analysis passes to write shellcode in regular C
+- [**75**星][1y] [tianjifou/ios-security-attack-and-prevent](https://github.com/tianjifou/ios-security-attack-and-prevent) iOS安全攻与防,详细的列出了，在iOS开发中，项目会存在的安全漏洞以及解决办法。
+- [**74**星][6m] [HTML] [ph0en1x-xmu/awesome-ctf-book](https://github.com/Ph0en1x-XMU/Awesome-CTF-Book) Study CTF, study security
+- [**74**星][3y] [wtsxdev/android-security-list](https://github.com/wtsxdev/android-security-list) Collection of Android security related resources
+- [**73**星][3y] [lcatro/hacker_document](https://github.com/lcatro/hacker_document) 收集一些以前看过对于入门和进阶很有用的攻击原理文档..
+- [**73**星][3y] [Py] [programa-stic/hexag00n](https://github.com/programa-stic/hexag00n) Hexag00n: A collection of reverse engineering tools for the Qualcomm Digital Signal Proccesor (QDSP6)
+- [**72**星][5y] [C#] [khr0x40sh/whitelistevasion](https://github.com/khr0x40sh/whitelistevasion) Collection of scripts, binaries and the like to aid in WhiteList Evasion on a Microsoft Windows Network.
+- [**72**星][3y] [Py] [roothaxor/ransom](https://github.com/roothaxor/ransom) Various codes related to Ransomware Developement
+- [**72**星][9m] [wufengxue/android-reverse](https://github.com/wufengxue/android-reverse) 安卓逆向工具汇总
+- [**72**星][2y] [zntfdr/awesome-twitter-bots](https://github.com/zntfdr/awesome-twitter-bots) A Curated Collection of the Best Twitter Bots
+- [**71**星][8y] [Py] [hellais/buckle-up](https://github.com/hellais/buckle-up) Script for running Mac OS X applications in a sandbox and a collection of seatbelt profiles
+- [**70**星][5m] [ascotbe/osmographic-brain-mapping](https://github.com/ascotbe/osmographic-brain-mapping) 渗透脑图(渗透步骤)
+- [**70**星][2y] [hacker0x01/h1-212-ctf-solutions](https://github.com/hacker0x01/h1-212-ctf-solutions) A collection of the solutions people wrote for the H1-212 Capture The Flag event
+- [**70**星][3y] [Ruby] [melvinsh/subresolve](https://github.com/melvinsh/subresolve) Resolve and quickly portscan a list of (sub)domains.
+- [**70**星][4y] [C++] [nccgroup/windowsdaclenumproject](https://github.com/nccgroup/windowsdaclenumproject) A collection of tools to enumerate and analyse Windows DACLs
+- [**70**星][3y] [HTML] [skylined/bugs](https://github.com/skylined/bugs) Collection of software bugs found by SkyLined
+- [**70**星][7m] [C++] [thomasthelen/antidebugging](https://github.com/thomasthelen/antidebugging) A collection of c++ programs that demonstrate common ways to detect the presence of an attached debugger.
+- [**70**星][4y] [C++] [waleedassar/antidebug](https://github.com/waleedassar/antidebug) Collection Of Anti-Debugging Tricks
+- [**70**星][6m] [wbierbower/awesome-physics](https://github.com/wbierbower/awesome-physics) A collaborative list of awesome software for exploring Physics concepts
+- [**70**星][16d] [Shell] [sclorg/s2i-php-container](https://github.com/sclorg/s2i-php-container) PHP container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running PHP applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images.
+- [**70**星][3m] [opentoallctf/tips](https://github.com/opentoallctf/tips) 
+- [**69**星][3m] [C] [aerosoul94/ida_gel](https://github.com/aerosoul94/ida_gel) A collection of IDA loaders for various game console ELF's. (PS3, PSVita, WiiU)
+- [**67**星][11d] [TSQL] [mitchellkrogza/the-big-list-of-hacked-malware-web-sites](https://github.com/mitchellkrogza/the-big-list-of-hacked-malware-web-sites) This repository contains a list of all web sites I come across that are either hacked with or purposefully hosting malware, ransomware, viruses or trojans.
+- [**67**星][2y] [shmilylty/awesome-malware-analysis](https://github.com/shmilylty/awesome-malware-analysis) A curated list of awesome malware analysis tools and resources
+- [**66**星][3y] [Py] [jgamblin/badactors](https://github.com/jgamblin/badactors) Create a list of bad actors from public IP blacklist.
+- [**66**星][2y] [tkmru/awesome-linux-rootkits](https://github.com/tkmru/awesome-linux-rootkits) Awesome Linux Rootkits
+- [**66**星][10m] [Py] [phxbandit/scripts-and-tools](https://github.com/phxbandit/scripts-and-tools) Scripts and utilities to help your hacking needs
+- [**66**星][10m] [security-cheatsheet/wireshark-cheatsheet](https://github.com/security-cheatsheet/wireshark-cheatsheet) Wireshark Cheat Sheet
+- [**65**星][5m] [JS] [exposejs/expose](https://github.com/exposejs/expose) A Dynamic Symbolic Execution (DSE) engine for JavaScript
+- [**65**星][1y] [Py] [immunit/xip](https://github.com/immunit/xip) XIP generates a list of IP addresses by applying a set of transformations used to bypass security measures e.g. blacklist filtering, WAF, etc.
+- [**65**星][5m] [Py] [integeruser/on-pwning](https://github.com/integeruser/on-pwning) My solutions to some CTF challenges and a list of interesting resources about pwning stuff
+- [**65**星][12m] [HTML] [mtesauro/owasp-wte](https://github.com/mtesauro/owasp-wte) Home of the developement for OWASP WTE - the Web Testing Environment, a collection of pre-packaged Linux AppSec tools, apps and documentation used to create pre-configured VMs or installed ala carte in the Linux of your choice..
+- [**65**星][1y] [Py] [naivenom/reversing-list](https://github.com/naivenom/reversing-list) Reversing list
+- [**65**星][2y] [HTML] [secwiki/ipot](https://github.com/secwiki/ipot) 蜜罐技术研究小组
+- [**64**星][2y] [opsxcq/proxy-list](https://github.com/opsxcq/proxy-list) A curated list of free public proxy servers
+- [**64**星][1y] [Lua] [pr4jwal/quick-scripts](https://github.com/pr4jwal/quick-scripts) A collection of my quick and dirty scripts for vulnerability POC and detections
+- [**64**星][3y] [secdr/sec-ml](https://github.com/secdr/sec-ml) 与安全相关的机器学习资料
+- [**63**星][9m] [Shell] [ernw/static-toolbox](https://github.com/ernw/static-toolbox) A collection of statically compiled tools like Nmap and Socat.
+- [**63**星][3y] [funkmyster/awesome-cloud-security](https://github.com/funkmyster/awesome-cloud-security) Curated list of awesome cloud security blogs, podcasts, standards, projects, and examples.
+- [**63**星][28d] [tiaotiaolong/sec_interview_know_list](https://github.com/tiaotiaolong/sec_interview_know_list) 信息安全方面面试清单
+- [**62**星][9m] [Py] [3lackrush/poc-bank](https://github.com/3lackrush/poc-bank) Focus on cybersecurity | collection of PoC and Exploits
+- [**62**星][1y] [pfalcon/awesome-linux-android-hacking](https://github.com/pfalcon/awesome-linux-android-hacking) List of hints and Q&As to get most of your Linux/Android device
+- [**62**星][3y] [shmilylty/sec-box](https://github.com/shmilylty/Sec-Box) information security Tools Box （信息安全工具集合）
+- [**62**星][30d] [ga1ois/bluehat-2019-seattle](https://github.com/ga1ois/bluehat-2019-seattle) All the materials in BlueHat 2019 Seattle will be realeased here.
+- [**61**星][2y] [im-bug/blockchain-security-list](https://github.com/im-bug/blockchain-security-list) 
+- [**61**星][3y] [Py] [samyk/awesome-vehicle-security](https://github.com/samyk/awesome-vehicle-security) A curated list of awesome resources, books, hardware, software, applications, people to follow, and more cool stuff about vehicle security, car hacking, and tinkering with the functionality of your car.
+- [**61**星][7y] [JS] [enablesecurity/webapp-exploit-payloads](https://github.com/EnableSecurity/Webapp-Exploit-Payloads) a collection of payloads for common webapps
+- [**60**星][2m] [infosec-community/apac-conferences](https://github.com/infosec-community/apac-conferences) A community contributed consolidated list of InfoSec meetups in the Asia Pacific region.
+- [**60**星][5y] [Go] [jgrahamc/torhoney](https://github.com/jgrahamc/torhoney) Gets the list of TOR exit nodes and matches them with Project Honeypot data
+- [**60**星][2y] [Shell] [kevthehermit/pentest](https://github.com/kevthehermit/pentest) Just a collection of pentest stuffs
+- [**59**星][1y] [Roff] [cloudsriseup/hacker_ezines](https://github.com/cloudsriseup/hacker_ezines) A collection of electronic hacker magazines carefully curated over the years from multiple sources
+- [**59**星][1y] [latestalexey/awesome-web-hacking](https://github.com/latestalexey/awesome-web-hacking) A list of web application security
+- [**59**星][3m] [lgg/awesome-keepass](https://github.com/lgg/awesome-keepass) Curated list of KeePass-related projects
+- [**59**星][3m] [Py] [williballenthin/idawilli](https://github.com/williballenthin/idawilli) IDA Pro 资源、脚本和配置文件等
+    - [hint_calls](https://github.com/williballenthin/idawilli/blob/master/plugins/hint_calls/readme.md) 以Hint的形式战士函数引用的call和字符串
+    - [dynamic_hints](https://github.com/williballenthin/idawilli/blob/master/plugins/dynamic_hints/readme.md) 演示如何为动态数据提供自定义hint的示例插件
+    - [add_segment](https://github.com/williballenthin/idawilli/tree/master/scripts/add_segment) 将已存在文件的内容添加为新的segment
+    - [color](https://github.com/williballenthin/idawilli/tree/master/scripts/color) 对指令进行着色
+    - [find_ptrs](https://github.com/williballenthin/idawilli/tree/master/scripts/find_ptrs) 扫描.text区段查找可能为指针的值,并进行标记
+    - [yara_fn](https://github.com/williballenthin/idawilli/tree/master/scripts/yara_fn) 创建yara规则，匹配当前函数的basic block
+    - [idawilli](https://github.com/williballenthin/idawilli/tree/master/idawilli) a python module that contains utilities for working with the idapython scripting interface.
+    - [themes](https://github.com/williballenthin/idawilli/tree/master/themes) colors and skins
+- [**58**星][4y] [C] [dev-zzo/exploits-nt-privesc](https://github.com/dev-zzo/exploits-nt-privesc) Exploit collection for NT privilege escalation
+- [**58**星][22d] [Py] [lich4/personal_script](https://github.com/lich4/personal_script) 010Editor/BurpSuite/Frida/IDA等多个工具的多个脚本
+    - [010Editor](https://github.com/lich4/personal_script/tree/master/010Editor_Script) 010Editor的多个脚本
+    - [ParamChecker](https://github.com/lich4/personal_script/tree/master/BurpSuite_Script) Burp插件
+    - [Frida](https://github.com/lich4/personal_script/tree/master/Frida_script) Frida多个脚本
+    - [IDA](https://github.com/lich4/personal_script/tree/master/IDA_Script) IDA Scripts
+    - [IDA-read_unicode.py](https://github.com/lich4/personal_script/blob/master/IDA_Script/read_unicode.py) IDA插件，识别程序中的中文字符
+    - [IDA-add_xref_for_macho](https://github.com/lich4/personal_script/blob/master/IDA_Script/add_xref_for_macho.py) 辅助识别Objective-C成员函数的caller和callee
+    - [IDA-add_info_for_androidgdb](https://github.com/lich4/personal_script/blob/master/IDA_Script/add_info_for_androidgdb.py) 使用gdbserver和IDA调试Android时，读取module列表和segment
+    - [IDA-trace_instruction](https://github.com/lich4/personal_script/blob/master/IDA_Script/trace_instruction.py) 追踪指令流
+    - [IDA-detect_ollvm](https://github.com/lich4/personal_script/blob/master/IDA_Script/detect_ollvm.py) 检测OLLVM，在某些情况下修复（Android/iOS）
+    - [IDA-add_block_for_macho](https://github.com/lich4/personal_script/blob/master/IDA_Script/add_block_for_macho.py) 分析macho文件中的block结构
+- [**57**星][3m] [PS] [eclypsium/screwed-drivers](https://github.com/eclypsium/screwed-drivers) a centralized source of knowledge which contains a list of drivers determined to be vulnerable as well as example code for how to use this kind of functionality.
+- [**57**星][2y] [PS] [invokethreatguy/csasc](https://github.com/invokethreatguy/csasc) Cobalt Strike Aggressor Script Collection
+- [**57**星][2y] [mrash/afl-cve](https://github.com/mrash/afl-cve) A collection of vulnerabilities discovered by the AFL fuzzer (afl-fuzz)
+- [**57**星][2y] [wangyihang/awesome-web-security](https://github.com/wangyihang/awesome-web-security) Awesome Web Security
+- [**57**星][3y] [shmilylty/awesome-application-security](https://github.com/shmilylty/awesome-application-security) awesome application security chinese version
+- [**56**星][2m] [Py] [dedsecinside/awesome-scripts](https://github.com/dedsecinside/awesome-scripts) A collection of awesome scripts from developers around the globe.
+- [**56**星][13d] [PS] [jaapbrasser/sharedscripts](https://github.com/jaapbrasser/sharedscripts) This is a collection of scripts that I have shared online
+- [**56**星][2y] [myndtt/ctf-site](https://github.com/myndtt/ctf-site) 介绍一些CTF训练的站点
+- [**55**星][26d] [guyanqi/awesome-privacy](https://github.com/guyanqi/awesome-privacy) Repository for collection of research papers on privacy.
+- [**55**星][10m] [muhammd/awesome-pentest](https://github.com/muhammd/awesome-pentest) Awesome Penetration Testing A collection of awesome penetration testing resources
+- [**55**星][23d] [C] [outscale/packetgraph](https://github.com/outscale/packetgraph) Packetgraph library is a collection of network bricks you can connect to form a network graph.
+- [**55**星][2y] [yrzx404/free-security-resources](https://github.com/yrzx404/free-security-resources) 安全总是无处不在...
+- [**54**星][3y] [annsec/awesome-cybersecurity](https://github.com/annsec/awesome-cybersecurity) Curated list of awesome cybersecurity companies and solutions.
+- [**54**星][1y] [cujanovic/subdomain-bruteforce-list](https://github.com/cujanovic/subdomain-bruteforce-list) subdomain bruteforce list
+- [**54**星][4m] [mikerah/awesome-privacy-on-blockchains](https://github.com/mikerah/awesome-privacy-on-blockchains) A curated list of privacy on blockchains resources
+- [**54**星][2y] [Py] [nezza/scada-stuff](https://github.com/nezza/scada-stuff) A collection of scripts & tools for reverse-engineering & hacking SCADA/ICS devices.
+- [**54**星][5y] [Py] [nnewsom/webbies](https://github.com/nnewsom/webbies) Collection of tools for web recon and enumeration.
+- [**54**星][2m] [b-mueller/awesome-mythx-smart-contract-security-tools](https://github.com/b-mueller/awesome-mythx-smart-contract-security-tools) A curated list of resources and tools for the MythX smart contract security API
+- [**53**星][2y] [1522402210/blockchain-security-list](https://github.com/1522402210/blockchain-security-list) BlockChain-Security-List
+- [**53**星][2m] [HTML] [brampat/security](https://github.com/brampat/security) Collection of links to Security stuff
+- [**53**星][2m] [C++] [cirosantilli/algorithm-cheat](https://github.com/cirosantilli/algorithm-cheat) MOVING TO:
+- [**53**星][6m] [Py] [deadbits/malware-analysis-scripts](https://github.com/deadbits/malware-analysis-scripts) Collection of scripts for different malware analysis tasks
+- [**53**星][2y] [Py] [h-j-13/malicious_domain_whois](https://github.com/h-j-13/malicious_domain_whois) 
+- [**53**星][3y] [hack-with-github/awesome-hacking-tools](https://github.com/hack-with-github/awesome-hacking-tools) A collection of various hacking and exploitation tools for hackers and pentesters.
+- [**52**星][2y] [Py] [0xd34db33f/gfyp](https://github.com/0xd34db33f/gfyp) Unification of dnstwist + SQLite + Email reporting. Set it as a cron job that runs every hour, give it a list of domains and email addresses for reporting, then watch it go find stuff.
+- [**52**星][2y] [harshilpatel007/hackinglabs](https://github.com/harshilpatel007/hackinglabs) A List Of Labs For People (Students) Who Want Learn OR Practice IT Security / Hacking / Penetration Testing In Ethical Way.
+- [**52**星][6m] [hitripod/awesome-blockchain](https://github.com/hitripod/awesome-blockchain) Curated list of blockchain, Awesome Awesomeness
+- [**51**星][2y] [JS] [gnijuohz/awesome-developers](https://github.com/gnijuohz/awesome-developers) A list of awesome developers
+- [**51**星][3m] [jcesarstef/ghhdb-github-hacking-database](https://github.com/jcesarstef/ghhdb-github-hacking-database) Github Hacking Database - My personal collection of Github Dorks to search for Confidential Information (Yes, it's a Github version of Google Dorks)
+- [**50**星][12d] [Py] [command-tab/awesome-n64-development](https://github.com/command-tab/awesome-n64-development) A curated list of Nintendo 64 development resources including toolchains, documentation, emulators, and more
+- [**50**星][2y] [PHP] [daudmalik06/reconcat](https://github.com/daudmalik06/reconcat) A small Php application to fetch archive url snapshots from archive.org. using it you can fetch complete list of snapshot urls of any year or complete list of all years possible. Made Specially for penetration testing purpose.
+- [**50**星][1y] [PS] [dgg-it/match-adhashes](https://github.com/dgg-it/match-adhashes) Builds a hashmap of AD NTLM hashes/usernames and iterates through a second list of hashes checking for the existence of each entry in the AD NTLM hashmap
+- [**50**星][9m] [Swift] [joncardasis/to-the-apples-core](https://github.com/joncardasis/to-the-apples-core) A collection of non-jailbroken code snippets on reverse-engineered iOS private apis
+- [**50**星][30d] [PHP] [tsug0d/myawesomewebchallenge](https://github.com/tsug0d/myawesomewebchallenge) Collection of my capture-the-flag web challenge in any levels
+- [**49**星][3y] [maldevel/rootkits-list-download](https://github.com/maldevel/rootkits-list-download) A curated list of rootkits found on Github and other sites.
+- [**49**星][1y] [opensourcepentest/tools](https://github.com/opensourcepentest/tools) Tools used for Penetration testing / Red Teaming
+- [**49**星][2y] [JS] [sola-da/redos-vulnerabilities](https://github.com/sola-da/redos-vulnerabilities) A list of ReDoS vulnerabilities in npm modules found by the Software Lab at TU Darmstadt. For each vulnerability, there is a proof-of-concept exploit, showing how the slowdown may occur. The resources in this repository are provided for research purpose only. Please read below for more details.
+- [**49**星][6m] [Shell] [t3chnocat/oscp-ctf](https://github.com/t3chnocat/oscp-ctf) oscp-ctf is a small collection of basic Bash scripts that make life easier and save time whether you are in the OSCP labs, HackThebox or playing around with CTFs.
+- [**48**星][4m] [blackint3/awesome-debugging](https://github.com/blackint3/awesome-debugging) Why Debugging?（为什么要调试？）
+- [**48**星][1y] [pbnj/infosec-interview-questions](https://github.com/pbnj/infosec-interview-questions) 
+- [**48**星][3m] [C] [spacial/csirt](https://github.com/spacial/csirt) CSIRT is an awesome curated list of links and resources in security and csirt daily activities.
+- [**47**星][9m] [anhkgg/awesome-windbg-extensions](https://github.com/anhkgg/awesome-windbg-extensions) awesome windbg extensions
+- [**47**星][5m] [C] [ihack4falafel/osee](https://github.com/ihack4falafel/osee) Collection of things made during my preparation to take on OSEE
+- [**47**星][5y] [Py] [neohapsis/mptcp-abuse](https://github.com/neohapsis/mptcp-abuse) A collection of tools and resources to explore MPTCP on your network. Initially released at Black Hat USA 2014.
+- [**47**星][22d] [radareorg/cutter-plugins](https://github.com/radareorg/cutter-plugins) A curated list of Community Plugins and Scripts written for Cutter
+- [**47**星][9m] [turing-chain/honeypots-on-blockchain](https://github.com/turing-chain/honeypots-on-blockchain) This repo collects almost all the smart contract honeypots that you could find in the first three pages of Google search.
+- [**47**星][2m] [mohitkhemchandani/oscp_bible](https://github.com/mohitkhemchandani/oscp_bible) This is a collection of resources, scripts, bookmarks, writeups, notes, cheatsheets that will help you in OSCP Preparation as well as for general pentesting and learning. If you feel like you can contribute in it. Please do that, I'll appreciate you.
+- [**46**星][9m] [syst3ma/awesome-baseband-research](https://github.com/syst3ma/awesome-baseband-research) A curated list of awesome baseband research resources
+- [**46**星][2y] [gdssecurity/whitepapers](https://github.com/gdssecurity/whitepapers) A collection of publicly released whitepapers
+- [**46**星][9m] [syst3ma/awesome-baseband-research](https://github.com/syst3ma/awesome-baseband-research) A curated list of awesome baseband research resources
+- [**45**星][2y] [Pascal] [0x48piraj/malwarex](https://github.com/0x48piraj/malwarex) Collection of killers !
+- [**44**星][3y] [shmilylty/nmap-reference-guide](https://github.com/shmilylty/Nmap-Reference-Guide) Nmap Reference Guide(Nmap参考指南)
+- [**43**星][4m] [TSQL] [abrignoni/dfir-sql-query-repo](https://github.com/abrignoni/dfir-sql-query-repo) Collection of SQL query templates for digital forensics use by platform and application.
+- [**43**星][1y] [Py] [ambionics/prestashop-exploits](https://github.com/ambionics/prestashop-exploits) Collection of exploits/POC for PrestaShop cookie vulnerabilities (CVE-2018-13784)
+- [**43**星][1y] [bulentrahimkazanci/windbg-cheat-sheet](https://github.com/bulentrahimkazanci/windbg-cheat-sheet) A practical guide to analyze memory dumps of .Net applications by using Windbg
+- [**43**星][2y] [C] [rbaron/fitless](https://github.com/rbaron/fitless) A collection of toy firmwares for the ID115 fitness tracker
+- [**43**星][2y] [Py] [robertbaruch/polychip](https://github.com/robertbaruch/polychip) Python app to extract a netlist of NMOS transistors from an Inkscape diagram.
+- [**43**星][8m] [C] [sensepost/frida-windows-playground](https://github.com/sensepost/frida-windows-playground) A collection of Frida hooks for experimentation on Windows platforms.
+- [**43**星][2y] [C] [shipcod3/irc-bot-hunters](https://github.com/shipcod3/irc-bot-hunters) a collection of Metasploit PoC exploits for IRC Botnets that allows RCE
+- [**43**星][2y] [Shell] [wh1t3rh1n0/pentest-scripts](https://github.com/wh1t3rh1n0/pentest-scripts) Miscellaneous scripts for pentesting
+- [**42**星][1y] [Py] [daddycocoaman/ironpentest](https://github.com/daddycocoaman/ironpentest) Collection of IronPython scripts and executables for penetration testing
+- [**42**星][3m] [Py] [dhn/osee](https://github.com/dhn/osee) Collection of resources for my preparation to take the OSEE certification.
+- [**42**星][2m] [mikalv/awesome-i2p](https://github.com/mikalv/awesome-i2p) A curated list of awesome I2P implementations, libraries, resources, projects, and shiny things. I2P is an anonymous overlay network - a network within a network. It is intended to protect communication from dragnet surveillance and monitoring by third parties such as ISPs.
+- [**42**星][2y] [C] [nixawk/awesome-windows-debug](https://github.com/nixawk/awesome-windows-debug) Debug Windows Application / Kernel
+- [**41**星][3y] [C++] [avdbg/saber](https://github.com/avdbg/saber) 《macOS软件安全与逆向分析》随书的调试器代码
+- [**41**星][3y] [Assembly] [ilovepp/firminsight](https://github.com/ilovepp/firminsight) Automatic collect firmwares from internet,decompress,find binary code,extract info,file relation and function relation
+- [**40**星][10m] [54yimeng/sia-websites](https://github.com/54yimeng/sia-websites) 这里是我在youtube等上收集的一些科学上网网站的集合,以各自的网站名命名文件夹。
+- [**40**星][2y] [milkdevil/ultimateapplockerbypasslist](https://github.com/milkdevil/ultimateapplockerbypasslist) 
+- [**40**星][2y] [Py] [mxmssh/idametrics](https://github.com/mxmssh/idametrics) 收集x86体系结构的二进制可执行文件的静态软件复杂性度量
+- [**39**星][3y] [JS] [auth0-blog/nodejs-awesome-polls](https://github.com/auth0-blog/nodejs-awesome-polls) 
+- [**39**星][4y] [C++] [corelan/pin](https://github.com/corelan/pin) Collection of pin tools
+- [**39**星][2m] [d1nfinite/sec-interview](https://github.com/d1nfinite/sec-interview) 信息安全面试题汇总
+- [**39**星][29d] [Shell] [userlandkernel/plataoplomo](https://github.com/userlandkernel/plataoplomo) Collection of (at time of release) iOS bugs I found
+- [**38**星][3y] [certtools/intelmq-feeds-documentation](https://github.com/certtools/intelmq-feeds-documentation) Cyber Threat Intelligence Feeds
+- [**38**星][7y] [Py] [evilcry/pythonscripts](https://github.com/evilcry/pythonscripts) Collection of my Python Scripts
+- [**38**星][2y] [HTML] [keenrivals/bugsite-index](https://github.com/keenrivals/bugsite-index) Index of websites publishing bugs along the lines of heartbleed.com
+- [**38**星][1y] [Py] [lnxg33k/misc](https://github.com/lnxg33k/misc) Collection of useful scripts.
+- [**38**星][1y] [Jupyter Notebook] [nfrumkin/forecast-prometheus](https://github.com/nfrumkin/forecast-prometheus) A collection of analysis, and machine learning techniques for time series forecasting w/ Prometheus metrics
+- [**38**星][16d] [HTML] [q1271964185/cyberspace_security_learning](https://github.com/q1271964185/cyberspace_security_learning) 在学习CTF、网络安全路上整合自己博客和一些资料，持续更新~
+- [**38**星][2y] [Py] [saelo/ida_scripts](https://github.com/saelo/ida_scripts) 多脚本
+    - [kernelcache](https://github.com/saelo/ida_scripts/blob/master/kernelcache.py) 识别并重命名iOS kernelcache函数stub。ARM64 Only
+    - [ssdt](https://github.com/saelo/ida_scripts/blob/master/ssdt.py) 解析Windows内核中的syscall表
+- [**38**星][1y] [Py] [tanc7/arms-commander](https://github.com/tanc7/arms-commander) Malware Suite/Menu designed for "Speedy and No-Mistakes Penetration Testing", written in Python 2.7.13 and tested on Kali Linux 4.6 & 4.9, originally intended to only perform the Reconnaissance and Enumeration Stages (it's role is dramatically expanded now). Requires Python 2.7 + Pip + Termcolor Module. All code is entirely free to be used in yo…
+- [**38**星][3y] [wtsxdev/exploit-development](https://github.com/wtsxdev/exploit-development) Resources for learning about Exploit Development
+- [**37**星][2m] [Py] [michaelstott/crlf-injection-scanner](https://github.com/michaelstott/crlf-injection-scanner) Command line tool for testing CRLF injection on list of domains.
+- [**37**星][2y] [C] [mlafeldt/ps2rd](https://github.com/mlafeldt/ps2rd) Collection of tools to remotely debug PS2 games
+- [**37**星][2m] [Lua] [r00t-3xp10it/nmap-nse-modules](https://github.com/r00t-3xp10it/nmap-nse-modules) My collection of nmap nse modules
+- [**37**星][3y] [vduddu/pentestresources](https://github.com/vduddu/pentestresources) A list of resources for Pentesting from various sources
+- [**37**星][2y] [rivaill/blockchain-security-awesome](https://github.com/Rivaill/blockchain-security-awesome) A curated list of awesome things related to blockchain security
+- [**36**星][17d] [Perl] [gouveaheitor/security-spellbook](https://github.com/gouveaheitor/security-spellbook) My collection of custom scripts, plugins, exploits and others small things
+- [**36**星][10m] [Py] [phage-nz/malware-hunting](https://github.com/phage-nz/malware-hunting) 与 Malware Hunting 相关的脚本/信息收集
+- [**36**星][1y] [JS] [threatexpress/aggressor-scripts](https://github.com/threatexpress/aggressor-scripts) Cobalt Strike Aggressor Scripts
+- [**35**星][3y] [Shell] [diekmann/net-network](https://github.com/diekmann/net-network) Public collection of firewall dumps.
+- [**35**星][5y] [Py] [kitctf/ctfcode](https://github.com/kitctf/ctfcode) Collection of somewhat useful stuff for CTF events
+- [**35**星][7m] [Shell] [kitsun3sec/pentest-cheat-sheets](https://github.com/kitsun3sec/pentest-cheat-sheets) A collection of snippets of codes and commands to make your life easier!
+- [**35**星][16d] [C] [atrosinenko/kbdysch](https://github.com/atrosinenko/kbdysch) A collection of user-space Linux kernel specific guided fuzzers based on LKL
+- [**34**星][2m] [HTML] [adulau/misp-osint-collection](https://github.com/adulau/misp-osint-collection) Collection of best practices to add OSINT into MISP and/or MISP communities
+- [**34**星][2y] [Py] [anbai-inc/secrss](https://github.com/anbai-inc/secrss) RSS安全订阅 每日安全信息推送
+- [**34**星][4y] [Py] [madsc13ntist/idapython](https://github.com/madsc13ntist/idapython) IDAPython脚本收集（无文档）
+- [**33**星][3y] [cert-w/hadoop-attack-library](https://github.com/cert-w/hadoop-attack-library) A collection of pentest tools and resources targeting Hadoop environments
+- [**33**星][4y] [HTML] [gosecure/security-cheat-sheet](https://github.com/gosecure/security-cheat-sheet) Minimalist cheat sheet for developpers to write secure code
+- [**33**星][10m] [kiyadesu/android-reversing-challenges](https://github.com/kiyadesu/android-reversing-challenges) there are some CTF challenges or some other things helping improving android reversing skills.
+- [**33**星][10m] [kiyadesu/android-reversing-challenges](https://github.com/kiyadesu/android-reversing-challenges) there are some CTF challenges or some other things helping improving android reversing skills.
+- [**33**星][16d] [Py] [angr/angr-platforms](https://github.com/angr/angr-platforms) A collection of extensions to angr to handle new platforms
+- [**33**星][2m] [Py] [landgrey/toolsparty](https://github.com/landgrey/toolsparty) A collection of script tools for pentesting
+- [**32**星][1y] [lylemi/dom-vuln-db](https://github.com/lylemi/dom-vuln-db) A collection of Browser DOM Vulnerabilities with PoCs
+- [**32**星][3y] [nextco/android-decompiler](https://github.com/nextco/android-decompiler) A hight quality list of tools to reverse engineering code from android.
+- [**32**星][19d] [Java] [retarded-skid/skidsuite-3](https://github.com/retarded-skid/skidsuite-3) A collection of java reverse engineering tools and informational links
+- [**32**星][6y] [PS] [roo7break/powershell-scripts](https://github.com/roo7break/powershell-scripts) List of PowerShell scripts conjured up for my consumption (you are welcome to use)
+- [**31**星][10m] [JS] [codebox/monkeyshine](https://github.com/codebox/monkeyshine) A collection of slightly evil JavaScript
+- [**31**星][5m] [C] [csandker/inmemoryshellcode](https://github.com/csandker/inmemoryshellcode) A Collection of In-Memory Shellcode Execution Techniques for Windows
+- [**31**星][4y] [danielmiessler/ctfsolutiontypes](https://github.com/danielmiessler/ctfsolutiontypes) A collection of CTF solution types, i.e. not solutions to specific CTF challenges, but the general categories that those solutions fall under. Includes CTF solution categories for web, binary, network, crypto, and others. Please contribute!
+- [**31**星][10m] [mmarfil/tinfoilhat](https://github.com/mmarfil/tinfoilhat) A list of privacy-respecting alternatives to apps and services that track you around.
+- [**31**星][6y] [Ruby] [zeknox/scripts](https://github.com/zeknox/scripts) a collection of useful scripts that for penetration testers
+- [**31**星][2m] [zoranpandovski/awesome-testing-tools](https://github.com/zoranpandovski/awesome-testing-tools) 
+- [**30**星][2y] [biprodeep/awesome-ml-for-cybersecurity](https://github.com/biprodeep/awesome-ml-for-cybersecurity) 
+- [**30**星][3y] [Py] [deadbits/shells](https://github.com/deadbits/shells) collection of useful shells for penetration tests
+- [**30**星][5m] [PS] [kendalvandyke/sqlpowerdoc](https://github.com/kendalvandyke/sqlpowerdoc) SQL Power Doc is a collection of Windows PowerShell scripts and modules that discover, document, and diagnose SQL Server instances and their underlying Windows OS & machine configurations.
+- [**30**星][1y] [Tcl] [mohemiv/tcltools](https://github.com/mohemiv/tcltools) Сollection of TCL scripts for Cisco IOS penetration testing
+- [**30**星][4y] [neu5ron/malware-traffic-analysis-pcaps](https://github.com/neu5ron/malware-traffic-analysis-pcaps) 网站malware-traffic-analysis.net的pcap文件托管
+- [**29**星][2y] [syst3ma/awesome_cisco_exploitation](https://github.com/syst3ma/awesome_cisco_exploitation) A curated list of awesome Cisco exploitation resources
+- [**29**星][2y] [Lua] [foxmole/pwnadventure3](https://github.com/foxmole/pwnadventure3) Blog series about Pwn Adventure 3
+- [**29**星][3y] [Py] [scubsrgroup/lectures-a-weekly-information-security-knowledge-lecture-hall](https://github.com/scubsrgroup/lectures-a-weekly-information-security-knowledge-lecture-hall) “每周一讲，信息安全基础知识讲堂”由四川大学信息安全研究所漏洞挖掘和利用组同学共同创建，通过每组员每周一讲的形式展开，主要涉及信息安全的基础知识，包括windows安全、移动安全等，此外还对通过该平台对外发布一些小组的研究成果！通过知识讲座一方面对新同学起到引导作用，另一方面则是漏洞挖掘与利用研究组同学信息安全研究经验和知识的积累！
+- [**29**星][2m] [hrt/anticheatjs](https://github.com/hrt/anticheatjs) Javascript Anti Cheats 101
+- [**29**星][3m] [C] [iaik/transientfail](https://github.com/iaik/transientfail) Website and PoC collection for transient execution attacks
+- [**29**星][2y] [syst3ma/awesome_cisco_exploitation](https://github.com/syst3ma/awesome_cisco_exploitation) A curated list of awesome Cisco exploitation resources
+- [**28**星][6y] [Ruby] [andrewsmhay/brisket](https://github.com/andrewsmhay/brisket) Brisket is a collection of frontend scripts for masscan, zmap, and nmap, in addition data manipulation scripts
+- [**28**星][1y] [C] [mrmacete/r2scripts](https://github.com/mrmacete/r2scripts) Collection of scripts for radare2
+- [**28**星][6y] [Shell] [packetforger/localroot](https://github.com/packetforger/localroot) Collection of tools for privesc on Linux
+- [**28**星][3y] [Shell] [rccoder/awesome-shadowsocks-qt5-installation-on-debian](https://github.com/rccoder/awesome-shadowsocks-qt5-installation-on-debian) Installation Script For shadowsocks-Qt5 on Debian
+- [**28**星][2y] [secarmalabs/iotchecklist](https://github.com/secarmalabs/iotchecklist) Baseline IoT security checklist. Consider security as early in development as possible and reap the rewards.
+- [**28**星][2y] [HTML] [shikarisenpai/leak-ntlm-hash-via-html](https://github.com/shikarisenpai/leak-ntlm-hash-via-html) List of HTML tags for leaking NTLM-hashes
+- [**28**星][2m] [JS] [benoitsevens/applying-ttd-to-malware-analysis](https://github.com/benoitsevens/applying-ttd-to-malware-analysis) Resources for the workshop titled "Repacking the unpacker: Applying Time Travel Debugging to malware analysis", given at HackLu 2019
+- [**27**星][1y] [alonemonkey/iosrebook-issues](https://github.com/alonemonkey/iosrebook-issues) 《iOS应用逆向与安全》 勘误
+- [**27**星][2y] [PHP] [blackfan/web-inf-dict](https://github.com/blackfan/web-inf-dict) List of configuration files from WEB-INF and META-INF for use in Unvalidated Forwards and JSP Include vulnerabilities.
+- [**27**星][9m] [Py] [nullarray/amplispy](https://github.com/nullarray/amplispy) Check local or remote list of DNS servers for suitability in DNS Amplification DoS.
+- [**27**星][3y] [stayliv3/iotsec](https://github.com/stayliv3/iotsec) 收集物联网安全相关资料
+- [**27**星][23d] [security-prince/resources-for-application-security](https://github.com/security-prince/resources-for-application-security) Some good resources for getting started with application security
+- [**26**星][2m] [infosec-community/apac-meetups](https://github.com/infosec-community/apac-meetups) A community contributed consolidated list of InfoSec meetups in the Asia Pacific region.
+- [**26**星][2y] [Shell] [jchrisfarris/aws-service-control-policies](https://github.com/jchrisfarris/aws-service-control-policies) Collection of semi-useful Service Control Policies and scripts to manage them
+- [**26**星][3y] [lucifer1993/awesome-hacking](https://github.com/lucifer1993/awesome-hacking) awesome hacking chinese version
+- [**26**星][1m] [meitar/awesome-pentest](https://github.com/meitar/awesome-pentest) 
+- [**26**星][5m] [pushinginertia/ip-blacklist](https://github.com/pushinginertia/ip-blacklist) An Apache httpd configuration file that rejects access to a server from a list of blacklisted IPs
+- [**26**星][20d] [thehive-project/awesome](https://github.com/thehive-project/awesome) A curated list of awesome things related to TheHive & Cortex
+- [**25**星][1y] [Go] [opennota/hydra](https://github.com/opennota/hydra) Penetration testing tool. This repository has migrated to
+- [**25**星][3y] [unexpectedby/awesome-pentest-tools](https://github.com/unexpectedby/awesome-pentest-tools) List of Security Archives Tools and software, generally for facilitate security & penetration research. Opening it up to everyone will facilitate a knowledge transfer. Hopefully the initial set will grow and expand.
+- [**25**星][5y] [wirelesscollege/securitytools](https://github.com/wirelesscollege/securitytools) android安全工具大全
+- [**25**星][3y] [wtsxdev/application-security](https://github.com/wtsxdev/application-security) Resources for learning about application security
+- [**24**星][1y] [bountymachine/about](https://github.com/bountymachine/about) A central place to keep track of relevant BountyMachine talks, blogs, and interesting things!
+- [**24**星][2y] [evilmog/hashcat-hcstat](https://github.com/evilmog/hashcat-hcstat) A collection of hashcat-hcstat files
+- [**24**星][3m] [jmscory/security-tool-chest](https://github.com/jmscory/security-tool-chest) A list of useful security and obvescation tools useful for red and blue teaming activities. A list made possible by the provided references.
+- [**24**星][6m] [meitar/awesome-malware](https://github.com/meitar/awesome-malware) 
+- [**24**星][6m] [redshiftzero/awesome-threat-modeling](https://github.com/redshiftzero/awesome-threat-modeling) a curated list of useful threat modeling resources
+- [**23**星][3y] [PHP] [3xp10it/xwebshell](https://github.com/3xp10it/xwebshell) 免杀webshell集合
+- [**23**星][3y] [johnnydep/cobaltstrike](https://github.com/johnnydep/cobaltstrike) cobalt strike stuff I have gathered from around github
+- [**23**星][29d] [Shell] [meisterp/torbrowser-overlay](https://github.com/meisterp/torbrowser-overlay) Gentoo overlay for Tor Browser related ebuilds
+- [**23**星][2y] [Py] [simonuvarov/expdev](https://github.com/simonuvarov/expdev) 
+- [**23**星][6m] [HTML] [tarafans/collections](https://github.com/tarafans/collections) A medley of PoCs and exploits
+- [**23**星][2m] [Py] [torpyorg/torpy](https://github.com/torpyorg/torpy) Pure python Tor client implementation of the Tor protocol
+- [**22**星][4y] [Java] [ernw/burpsuite-extensions](https://github.com/ernw/burpsuite-extensions) A collection of Burp Suite extensions
+- [**22**星][3y] [PHP] [gr33ntii/malware-collection](https://github.com/gr33ntii/malware-collection) 
+- [**22**星][2y] [JS] [jamesacampbell/elector](https://github.com/jamesacampbell/elector) TOR BROWSER IN ELECTRON
+- [**22**星][4m] [Py] [nlitsme/idascripts](https://github.com/nlitsme/idascripts) 枚举多种类型数据：Texts/NonFuncs/...
+    - [enumerators](https://github.com/nlitsme/idascripts/blob/master/enumerators.py) Enumeration utilities for idapython
+- [**22**星][4y] [Py] [onethawt/idapyscripts](https://github.com/onethawt/idapyscripts) IDAPython脚本
+    - [DataXrefCounter ](https://github.com/onethawt/idapyscripts/blob/master/dataxrefcounter.py) 枚举指定区段的所有交叉引用，计算使用频率
+- [**21**星][3y] [aozhimin/ios-monitor-resources](https://github.com/aozhimin/ios-monitor-resources) 对各厂商的 iOS SDK 性能监控方案的整理和收集后的资源
+- [**21**星][6y] [Py] [carlpulley/volatility](https://github.com/carlpulley/volatility) A collection of Volatility Framework plugins.
+- [**21**星][2y] [TeX] [citp/anomalous-tor-keys](https://github.com/citp/anomalous-tor-keys) Analysis of archived Tor relay RSA public keys
+- [**21**星][5m] [C] [cyclaero/void-zones-tools](https://github.com/cyclaero/void-zones-tools) Prepare a list of void zones that can be readily feed into Unbound on FreeBSD
+- [**21**星][1m] [extremecoders-re/re-list](https://github.com/extremecoders-re/re-list) A list of open source reverse engineering tools with a focus on binary analysis
+- [**21**星][4y] [fabiobaroni/awesome-pentest](https://github.com/fabiobaroni/awesome-pentest) A collection of awesome penetration testing resources, tools and other shiny things
+- [**21**星][5y] [shieldfy/awesome-pentest](https://github.com/shieldfy/awesome-pentest) A collection of awesome penetration testing resources, tools and other shiny things
+- [**21**星][10m] [slowmist/awesome-blockchain-bug-bounty](https://github.com/slowmist/awesome-blockchain-bug-bounty) A comprehensive curated list of available Blockchain Bug Bounty Programs.
+- [**21**星][2m] [status-im/awesome-secure-messaging](https://github.com/status-im/awesome-secure-messaging) A curated collection of links for secure messaging.
+- [**21**星][2y] [0x90/firmware-arsenal](https://github.com/0x90/firmware-arsenal) Tools and scripts for firmware reverse engeneering
+- [**21**星][3m] [alexanderstonec/top-100-hacking-security-e-books-free-download-2019](https://github.com/alexanderstonec/top-100-hacking-security-e-books-free-download-2019) Hacking and Cyber Security Ebooks | For More Visit -
+- [**20**星][3y] [TeX] [edelahozuah/awesome-tls-security](https://github.com/edelahozuah/awesome-tls-security) A collection of (not-so, yet) awesome resources related to TLS, PKI and related stuff
+- [**20**星][2m] [edwardqiu/awesome-infosec](https://github.com/edwardqiu/awesome-infosec) A curated list of awesome infosec blog posts, courses, books and more!
+- [**20**星][1y] [seifreed/awesome-sandbox-evasion](https://github.com/seifreed/awesome-sandbox-evasion) A summary about different projects/presentations/tools to test how to evade malware sandbox systems
+- [**19**星][1y] [annalorimer/security-resources](https://github.com/annalorimer/security-resources) A list of stuff to learn more about security!
+- [**19**星][1y] [exaybachay-ak/securityadvice](https://github.com/exaybachay-ak/securityadvice) Collection of advice to new IT security folks
+- [**19**星][3y] [Shell] [operatorequals/oneliner-sh](https://github.com/operatorequals/oneliner-sh) oneliner is a tool that gives a list of compatible reverse-shell-string oneliners
+- [**19**星][2y] [voidhack/toolset](https://github.com/voidhack/toolset) Useful tools for CTF competitions
+- [**19**星][2y] [hunter-github/evil-and-not-wholly-awesome-firefox](https://github.com/Hunter-Github/evil-and-not-wholly-awesome-firefox) [deprecated since Mozilla turned evil] A list of resources for and about Mozilla Firefox
+- [**19**星][7m] [C#] [rainkin1993/remote-access-trojan-database](https://github.com/rainkin1993/remote-access-trojan-database) A database of RAT collected from Internet
+- [**18**星][3y] [Shell] [mitchellkrogza/linux-server-administration-scripts](https://github.com/mitchellkrogza/linux-server-administration-scripts) Simple bash administration scripts for Linux to make your life easier.
+- [**18**星][3y] [shakenetwork/malwareanalysis](https://github.com/shakenetwork/malwareanalysis) 恶意软件分析工具和资源列表
+- [**17**星][2y] [cherishao/security-box](https://github.com/cherishao/security-box) 安全盒子，这里主要指的是自己备份的安全行业相关小工具项目集。
+- [**17**星][4y] [fabiobaroni/awesome-web-hacking](https://github.com/fabiobaroni/awesome-web-hacking) A list of web application security
+- [**17**星][7m] [imfht/websecurityscannerwhitepaper](https://github.com/imfht/websecurityscannerwhitepaper) 收集网络上公开的漏洞扫描器的白皮书。
+- [**16**星][3y] [0xc1r3ng/malware-sandboxes-malware-source](https://github.com/0xc1r3ng/malware-sandboxes-malware-source) Malware Sandboxes & Malware Source
+- [**16**星][2y] [Py] [b4zinga/explib](https://github.com/b4zinga/explib) Explib: Collections of poc and exp.
+- [**16**星][4y] [demonsec666/pentest_study](https://github.com/demonsec666/pentest_study) 从零开始内网渗透学习
+- [**16**星][1y] [Py] [portswigger/additional-scanner-checks](https://github.com/portswigger/additional-scanner-checks) Collection of scanner checks missing in Burp
+- [**15**星][10m] [anyeduke/at-p-list](https://github.com/anyeduke/at-p-list) 攻防清单:用于整理当前收集的所有攻防相关资源
+- [**15**星][2y] [Py] [ecbftw/poc](https://github.com/ecbftw/poc) A collection of published exploits and proof-of-concept code.
+- [**15**星][1y] [ilovecode2018/awesome-osint](https://github.com/ilovecode2018/awesome-osint) A curated list of amazingly awesome open source intelligence tools and resources
+- [**15**星][1y] [nytrorst/presentations](https://github.com/nytrorst/presentations) My presentations from different conferences
+- [**15**星][7m] [C] [yuawn/ais3-2019-pre-exam](https://github.com/yuawn/ais3-2019-pre-exam) My pwn challeges for AIS3 2019 Pre-exam.
+- [**15**星][2y] [shmilylty/malware-analysis-tools](https://github.com/shmilylty/Malware-Analysis-Tools) 恶意软件分析套件
+- [**15**星][1y] [adhdproject/awesome-active-defense](https://github.com/adhdproject/awesome-active-defense) an awesome list of active defense resources
+- [**14**星][2y] [3xp10it/xlearn](https://github.com/3xp10it/xlearn) 记录安全界大牛分享经验
+- [**14**星][3y] [Py] [ernw/ctf-writeups](https://github.com/ernw/ctf-writeups) Collection of CTF writeups
+- [**14**星][1y] [JS] [osrdrivers/windbg-exts](https://github.com/osrdrivers/windbg-exts) Various WinDbg extensions and scripts
+- [**14**星][1y] [probely/security_checklist](https://github.com/probely/security_checklist) Web Application Security Checklist
+- [**14**星][30d] [Py] [ricardojoserf/wifi-pentesting-guide](https://github.com/ricardojoserf/wifi-pentesting-guide) WiFi Penetration Testing Guide
+- [**14**星][1y] [vagnes/infosecguide](https://github.com/vagnes/infosecguide) infosec.guide is a collection of resources for anyone in the infosec field
+- [**14**星][3y] [xeushack/awesome-hacking-practice](https://github.com/xeushack/awesome-hacking-practice) A curated list of websites and apps to help you practice hacking
+- [**13**星][4y] [djadmin/awesome-security](https://github.com/djadmin/awesome-security) A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.
+- [**13**星][4y] [joesecurity/awesome-malware-analysis](https://github.com/joesecurity/awesome-malware-analysis) A curated list of awesome malware analysis tools and resources
+- [**12**星][2y] [alchu4n/sec_chart](https://github.com/alchu4n/sec_chart) 有关信息安全的一些截图及流程图分享
+- [**12**星][3y] [paralax/awesome-pentest-1](https://github.com/paralax/awesome-pentest-1) Awesome Penetration Testing A collection of awesome penetration testing resources
+- [**12**星][5m] [wuseman/wnmap](https://github.com/wuseman/wnmap) This is a cheatsheet for mastering nmap
+- [**12**星][30d] [gaurav-gogia/dftools](https://github.com/gaurav-gogia/dftools) A curated list of digital forensic tools.
+- [**12**星][1m] [albertzsigovits/mal-analysis-tools](https://github.com/albertzsigovits/mal-analysis-tools) A curated list of malware repositories, trackers and malware analysis tools
+- [**11**星][28d] [YARA] [deadbits/yara-rules](https://github.com/deadbits/yara-rules) Collection of YARA signatures from individual research
+- [**11**星][2y] [dictionaryhouse/sql-injection-fuzzpayload-collection](https://github.com/dictionaryhouse/sql-injection-fuzzpayload-collection) Sql-injection FuzzPayload 集合
+- [**11**星][7m] [HTML] [lambdacasserole/hack-this](https://github.com/lambdacasserole/hack-this) A collection of common web programming security mistakes.
+- [**11**星][4y] [PHP] [yunkaiyueming/php_back_door_code](https://github.com/yunkaiyueming/php_back_door_code) PHP后门代码汇总
+- [**11**星][2y] [Py] [redteamwing/pentest-wiki](https://github.com/RedTeamWing/pentest-wiki) PENTEST-WIKI is a free online security knowledge library for pentesters / researchers. If you have a good idea, please share it with others.
+- [**11**星][1y] [hackinfinity/honey-pots-](https://github.com/hackinfinity/honey-pots-) My collection of Honeypot resources
+- [**10**星][1y] [Py] [ecx86/ida-scripts](https://github.com/ecx86/ida-scripts) IDA Pro/Hex-Rays configs, scripts, and plugins收集
+- [**10**星][2y] [hxy9243/whotofollow](https://github.com/hxy9243/whotofollow) Who to follow on Twitter/Telegram
+- [**10**星][4y] [Py] [randomsctf/ctf-scripts](https://github.com/randomsctf/ctf-scripts) A collection of short scripts for analysis, encryption and forensics, that can be used for CTF and/or security assessments
+- [**10**星][9m] [JS] [twlinux/lets-talk](https://github.com/twlinux/lets-talk) Intentionally vulnerable website that demonstrates beginner-level injection vulnerabilities
+- [**9**星][4y] [gavz/awesome-windows-exploitation](https://github.com/gavz/awesome-windows-exploitation) A curated list of awesome Windows Exploitation resources, and shiny things.
+- [**8**星][28d] [Shell] [kbnlresearch/forensicimagingresources](https://github.com/kbnlresearch/forensicimagingresources) resources and documentation related to an effort at setting up an experimental small-scale forensic imaging facility.
+- [**8**星][1y] [newcon/securitytools](https://github.com/newcon/securitytools) A list of security tools that includes free, opensourse and paid ones too.
+- [**8**星][1y] [testrockytesting/awesome-cloud-osint](https://github.com/testrockytesting/awesome-cloud-osint) This repository will host resources for collecting information about cloud providers - SaaS, IaaS, PaaS, DaaS etc.
+- [**7**星][1y] [Py] [aye-whitehat/ctf-collection](https://github.com/aye-whitehat/ctf-collection) 
+- [**7**星][2y] [cuccs/ns](https://github.com/cuccs/ns) 网络安全课程作业收集
+- [**7**星][2y] [dictionaryhouse/the-security-handbook-kali-linux](https://github.com/dictionaryhouse/the-security-handbook-kali-linux) A useful reference guide and a handbook of security basics for those starting out.
+- [**7**星][1m] [mitchellkrogza/badd-boyz-bitcoin-scammers](https://github.com/mitchellkrogza/badd-boyz-bitcoin-scammers) A list of bitcoin addresses being used in Ransomware and Sextortion Scams
+- [**7**星][2m] [Shell] [oldbonhart/cheat_sheets](https://github.com/oldbonhart/cheat_sheets) cheat-sheets for network security
+- [**7**星][28d] [HTML] [arch3rpro/pentesttools](https://github.com/arch3rpro/pentesttools) Awesome Pentest Tools Collection
+- [**6**星][2y] [Py] [benderpan/pocs](https://github.com/benderpan/pocs) 整理收集的一些漏洞利用POC+一些扫描类的实现。
+- [**6**星][3y] [C] [degrigis/exploitation](https://github.com/degrigis/exploitation) Repo for various exploitation utilities/PoC/Shellcodes/CTF solutions
+- [**6**星][3y] [jasonmiacono/iocs](https://github.com/jasonmiacono/iocs) Indicators of compromise for threat intelligence
+- [**6**星][4y] [mattulm/sfiles_yara](https://github.com/mattulm/sfiles_yara) A collection of YARA signatures that I have found around the web.
+- [**6**星][4y] [Shell] [thoqbk/code-collection](https://github.com/thoqbk/code-collection) A shell script tool for decompiling multiple jar files and re-arranging source code
+- [**6**星][8m] [stendarr/funny-tech-talks](https://github.com/stendarr/funny-tech-talks) A list of funny talks about Technology and Computer Science
+- [**5**星][3y] [agnosticlines/binaryninja-plugins](https://github.com/agnosticlines/binaryninja-plugins) A repo with a listing of binary ninja scripts + plugins (massively inspired by
+- [**5**星][2m] [repnz/windbg-cheat-sheet](https://github.com/repnz/windbg-cheat-sheet) My personal cheat sheet for using WinDbg for kernel debugging
+- [**4**星][1m] [arkecosystem/security-vulnerabilities](https://github.com/arkecosystem/security-vulnerabilities) List of known and closed security vulnerabilities related to our products.
+- [**4**星][4y] [PHP] [blackhalt/webshells](https://github.com/blackhalt/webshells) An list of webshell vulnerability injection.
+- [**4**星][7m] [gexos/malrepo](https://github.com/gexos/malrepo) A collection of malware samples caught by DIONAEA Honeypot
+- [**4**星][2y] [netseclab/paper_for_digital_forensics](https://github.com/netseclab/paper_for_digital_forensics) This is a collection of papers, codes, issues for digital forensics.
+- [**3**星][5y] [api0cradle/shmoocon-2015](https://github.com/api0cradle/shmoocon-2015) ShmooCon Slides/ Proceedings Draft
+- [**3**星][5m] [Java] [hktalent/myhktools](https://github.com/hktalent/myhktools) 
+- [**2**星][2y] [androidtamer/awesome_android_pentest](https://github.com/androidtamer/awesome_android_pentest) Awesome android Pentest tools collection
+- [**2**星][4y] [C] [geekben/cve-collections](https://github.com/geekben/cve-collections) collect the POC and EXP for recent CVEs
+- [**2**星][2y] [kanglib/edu_for](https://github.com/kanglib/edu_for) A cheat sheet for digital forensics
+- [**2**星][2y] [PS] [truekonrads/powerspells](https://github.com/truekonrads/powerspells) Small collection of powershell scripts useful during lateral movement
+- [**1**星][2y] [PHP] [12345bt/webshell](https://github.com/12345bt/webshell) webshell收集项目
+- [**1**星][1y] [iamprbkr/awesomebugbounty4noob](https://github.com/iamprbkr/awesomebugbounty4noob) Awesome Resources for beginners on how to find websites/Domains/Targets for Bugbounty/Pentesting/Responsible Disclosure
+- [**1**星][2y] [Py] [monkeyman79/janitor](https://github.com/monkeyman79/janitor) Collection of GDB commands for low-level debugging, aimed at bringing debug.exe flavor into GDB command line interface.
+- [**1**星][3y] [sunu11/sec-box](https://github.com/sunu11/sec-box) information security Tools Box （信息安全工具集合）
+- [**1**星][6m] [sv4us/ebook](https://github.com/sv4us/ebook) ebook programing reverse pentest
+- [**1**星][3m] [kingsabri/aggressorscripts](https://github.com/kingsabri/aggressorscripts) A collection of Cobalt Strike aggressor scripts
+- [**0**星][2y] [goel42/meltdown-spectre-bug-poc-collection](https://github.com/goel42/meltdown-spectre-bug-poc-collection) Aggregating the Proof of Concept published so far.
+- [**0**星][2y] [goel42/meltdown-spectre-poc-collection](https://github.com/goel42/meltdown-spectre-poc-collection) Aggregating the Proof of Concept published so far.  
+- [**0**星][10m] [Py] [ponusjang/poc-exp-collection](https://github.com/ponusjang/poc-exp-collection) Poc&Exp Collection
+- [**0**星][11m] [s3curityb3ast/s3curityb3ast.github.io](https://github.com/s3curityb3ast/s3curityb3ast.github.io) Kaustubh's security advisories
+- [**0**星][5y] [andrewsmhay/research](https://github.com/andrewsmhay/research) Collection of my research and studies
+
+
+***
+
+
+## <a id="9f9fed5b730bc5bfceaaf77da3aa719e"></a>笔记&&文章&&教程
+
+
+- [**24956**星][10d] [xitu/gold-miner](https://github.com/xitu/gold-miner) 翻译优质互联网技术文章的社区
+- [**15776**星][10m] [micropoor/micro8](https://github.com/micropoor/micro8) 从业10年渗透笔记
+- [**5513**星][9m] [carpedm20/awesome-hacking](https://github.com/carpedm20/awesome-hacking) Hacking教程、工具和资源
+- [**4174**星][2y] [forter/security-101-for-saas-startups](https://github.com/forter/security-101-for-saas-startups) 初学者安全小窍门
+- [**2918**星][10d] [secfigo/awesome-fuzzing](https://github.com/secfigo/awesome-fuzzing) A curated list of fuzzing resources ( Books, courses - free and paid, videos, tools, tutorials and vulnerable applications to practice on ) for learning Fuzzing and initial phases of Exploit Development like root cause analysis.
+- [**2529**星][4m] [kbandla/aptnotes](https://github.com/kbandla/aptnotes) Various public documents, whitepapers and articles about APT campaigns
+- [**1871**星][5m] [bypass007/emergency-response-notes](https://github.com/bypass007/emergency-response-notes) 应急响应实战笔记，一个安全工程师的自我修养。
+- [**1679**星][7m] [dsasmblr/game-hacking](https://github.com/dsasmblr/game-hacking) Tutorials, tools, and more as related to reverse engineering video games.
+- [**1457**星][3y] [tiancode/learn-hacking](https://github.com/tiancode/learn-hacking) 开始学习Kali Linux 各种破解教程 渗透测试 逆向工程 HackThisSite挑战问题解答
+- [**1229**星][6m] [chalker/notes](https://github.com/chalker/notes) Some public notes
+- [**893**星][1m] [aptnotes/data](https://github.com/aptnotes/data) APTnotes data
+- [**883**星][4m] [escapingbug/awesome-browser-exploit](https://github.com/escapingbug/awesome-browser-exploit) awesome list of browser exploitation tutorials
+- [**773**星][1y] [pfarb/awesome-crypto-papers](https://github.com/pfarb/awesome-crypto-papers) A curated list of cryptography papers, articles, tutorials and howtos.
+- [**750**星][4y] [fabiobaroni/awesome-exploit-development](https://github.com/fabiobaroni/awesome-exploit-development) A curated list of resources (books, tutorials, courses, tools and vulnerable applications) for learning about Exploit Development
+- [**723**星][4m] [uknowsec/active-directory-pentest-notes](https://github.com/uknowsec/active-directory-pentest-notes) 个人域渗透学习笔记
+- [**683**星][1y] [HTML] [zhengmin1989/myarticles](https://github.com/zhengmin1989/myarticles) 蒸米的文章（iOS冰与火之歌系列，一步一步学ROP系列，安卓动态调试七种武器系列等）
+- [**671**星][1y] [dsasmblr/hacking-online-games](https://github.com/dsasmblr/hacking-online-games) A curated list of tutorials/resources for hacking online games.
+- [**607**星][2y] [HTML] [jiji262/wooyun_articles](https://github.com/jiji262/wooyun_articles) drops.wooyun.org 乌云Drops文章备份
+- [**558**星][3y] [advanced-threat-research/firmware-security-training](https://github.com/advanced-threat-research/firmware-security-training) 固件安全教程：从攻击者和防卫者的角度看BIOS / UEFI系统固件的安全
+- [**478**星][2m] [xiangpasama/jdsrc-small-classroom](https://github.com/xiangpasama/jdsrc-small-classroom) 京东SRC小课堂系列文章
+- [**448**星][8m] [jnusimba/miscsecnotes](https://github.com/jnusimba/miscsecnotes) some learning notes about Web/Cloud/Docker Security、 Penetration Test、 Security Building
+- [**425**星][10m] [C] [hardenedlinux/linux-exploit-development-tutorial](https://github.com/hardenedlinux/linux-exploit-development-tutorial) a series tutorial for linux exploit development to newbie.
+- [**383**星][7m] [jnusimba/androidsecnotes](https://github.com/jnusimba/androidsecnotes) some learning notes about Android Security
+- [**383**星][1y] [HTML] [maestron/reverse-engineering-tutorials](https://github.com/maestron/reverse-engineering-tutorials) Reverse Engineering Tutorials
+- [**379**星][7m] [unprovable/pentesthardware](https://github.com/unprovable/pentesthardware) 公开笔记整理
+- [**369**星][2y] [jaybosamiya/security-notes](https://github.com/jaybosamiya/security-notes) notes on the security related videos I watch (as a way of quick recall).
+- [**359**星][3y] [Py] [sangaline/advanced-web-scraping-tutorial](https://github.com/sangaline/advanced-web-scraping-tutorial) The Zipru scraper developed in the Advanced Web Scraping Tutorial.
+- [**299**星][1y] [Py] [anasaboureada/penetration-testing-study-notes](https://github.com/AnasAboureada/Penetration-Testing-Study-Notes) Penetration Testing notes, resources and scripts
+- [**269**星][2y] [sam-b/windows_kernel_resources](https://github.com/sam-b/windows_kernel_resources) Papers, blogposts, tutorials etc for learning about Windows kernel exploitation, internals and (r|b)ootkits
+- [**233**星][2y] [C] [hardenedlinux/grsecurity-101-tutorials](https://github.com/hardenedlinux/grsecurity-101-tutorials) 增强 Linux 内核安全的内核补丁集
+- [**222**星][1y] [C++] [wnagzihxa1n/browsersecurity](https://github.com/wnagzihxa1n/browsersecurity) 我在学习浏览器安全过程中整理的漏洞分析笔记与相关的学习资料
+- [**220**星][2y] [Py] [wwong99/pentest-notes](https://github.com/wwong99/pentest-notes)  all my penetration testing study notes, penetration testing tools, scripts, techniques, tricks and also many scripts that I found them useful from all over the internet.
+- [**213**星][4m] [Shell] [xu-jian/vps](https://github.com/xu-jian/vps) 个人笔记汇总
+- [**204**星][2y] [C] [peperunas/injectopi](https://github.com/peperunas/injectopi) 一堆Windows 代码注入教程
+- [**176**星][1m] [microsvuln/awesome-afl](https://github.com/microsvuln/awesome-afl) A curated list of different AFL forks and AFL inspired fuzzers with detailed equivalent academic papers with AFL-fuzzing tutorials
+- [**174**星][2y] [C] [geosn0w/reverse-engineering-tutorials](https://github.com/geosn0w/reverse-engineering-tutorials) Some Reverse Engineering Tutorials for Beginners
+- [**161**星][1y] [jnusimba/linuxsecnotes](https://github.com/jnusimba/linuxsecnotes) some learning notes about Linux Security
+- [**140**星][2y] [spoock1024/web-security](https://github.com/spoock1024/web-security) Web安全中比较好的文章
+- [**133**星][3y] [PHP] [ksanchezcld/hacking_cheat_sheet](https://github.com/ksanchezcld/hacking_cheat_sheet) All my Hacking|Pentesting Notes
+- [**128**星][2y] [C] [firmianay/life-long-learner](https://github.com/firmianay/life-long-learner) Personal Notes About Everything.
+- [**103**星][2y] [Py] [1111joe1111/tuts](https://github.com/1111joe1111/tuts) Reverse engineering tutorials
+- [**98**星][11d] [smi1esec/web-security-note](https://github.com/Smi1eSEC/Web-Security-Note) Record some common Web security sites
+- [**74**星][2y] [HTML] [anquanquantao/pentraining](https://github.com/anquanquantao/pentraining) 一个网络安全基础知识的教程。内容比较杂，好在都是实验视频和工具提供，可以自行动手完成实验。
+- [**74**星][2y] [Assembly] [azeria-labs/arm-assembly-examples](https://github.com/azeria-labs/arm-assembly-examples) Snippets from ARM assembly tutorials
+- [**63**星][10m] [C] [zigzagsecurity/survival-guide-radare2](https://github.com/zigzagsecurity/survival-guide-radare2) Basic tutorials for reverse engineer with radare2
+- [**60**星][13d] [leipzig/awesome-reproducible-research](https://github.com/leipzig/awesome-reproducible-research) A curated list of reproducible research case studies, projects, tutorials, and media
+- [**52**星][12m] [feicong/zsxq_archives](https://github.com/feicong/zsxq_archives) 【软件安全与知识星球】精华文章列表
+- [**47**星][27d] [Py] [ercoppa/symbolic-execution-tutorial](https://github.com/ercoppa/symbolic-execution-tutorial) Tutorial on Symbolic Execution. Hands-on session is based on the angr framework.
+- [**41**星][1m] [mykings/security-study-tutorial](https://github.com/mykings/security-study-tutorial) Summary of online learning materials
+- [**41**星][10m] [C++] [thebabush/dumb-obfuscator](https://github.com/thebabush/dumb-obfuscator) Tutorial on how to write the dumbest obfuscator I could think of.
+- [**28**星][1y] [JS] [wahengchang/nodejs-security-must-know](https://github.com/wahengchang/nodejs-security-must-know) It is a note about security on nodejs
+- [**20**星][28d] [Py] [0x25/useful](https://github.com/0x25/useful) useful pentest note
+- [**12**星][1m] [HTML] [gnebbia/nmap_tutorial](https://github.com/gnebbia/nmap_tutorial) Some collected notes about nmap
+- [**0**星][1y] [C++] [linux-sir/arm_reverse_engineer](https://github.com/linux-sir/arm_reverse_engineer) ARM平台逆向工程学习笔记
+
+
+***
+
+
+## <a id="6a5d962d62378399d7e12c1690188e7a"></a>Wordlist
+
+
+- [**6033**星][28d] [berzerk0/probable-wordlists](https://github.com/berzerk0/probable-wordlists) Version 2 is live! Wordlists sorted by probability originally created for password generation and testing - make sure your passwords aren't popular!
+- [**2314**星][2y] [Py] [rootphantomer/blasting_dictionary](https://github.com/rootphantomer/blasting_dictionary) 爆破字典
+- [**917**星][15d] [Batchfile] [mr-xn/burpsuite-collections](https://github.com/mr-xn/burpsuite-collections) BurpSuite收集：包括不限于 Burp 文章、破解版、插件(非BApp Store)、汉化等相关教程
+- [**628**星][4y] [jeanphorn/wordlist](https://github.com/jeanphorn/wordlist) Collection of some common wordlists such as RDP password, user name list, ssh password wordlist for brute force. IP Cameras Default Passwords.
+- [**315**星][2y] [Shell] [kennyn510/wpa2-wordlists](https://github.com/kennyn510/wpa2-wordlists) A collection of wordlists dictionaries for password cracking
+- [**314**星][8m] [Py] [screetsec/brutesploit](https://github.com/screetsec/brutesploit) BruteSploit is a collection of method for automated Generate, Bruteforce and Manipulation wordlist with interactive shell. That can be used during a penetration test to enumerate and maybe can be used in CTF for manipulation,combine,transform and permutation some words or file text :p
+- [**180**星][4y] [Shell] [nccgroup/cisco-snmp-enumeration](https://github.com/nccgroup/cisco-snmp-enumeration) Automated Cisco SNMP Enumeration, Brute Force, Configuration Download and Password Cracking
+- [**136**星][6m] [tarraschk/richelieu](https://github.com/tarraschk/richelieu) List of the most common French passwords
+- [**82**星][6y] [Java] [schierlm/javapayload](https://github.com/schierlm/javapayload) JavaPayload is a collection of pure Java payloads to be used for post-exploitation from pure Java exploits or from common misconfigurations (like not password protected Tomcat manager or debugger port).
+- [**77**星][2y] [Py] [stasinopoulos/jaidam](https://github.com/stasinopoulos/jaidam) Jaidam is an open source penetration testing tool that would take as input a list of domain names, scan them, determine if wordpress or joomla platform was used and finally check them automatically, for web vulnerabilities using two well‐known open source tools, WPScan and Joomscan.
+- [**70**星][3y] [screetsec/wordlist-dracos](https://github.com/screetsec/wordlist-dracos) Collection My Wordlist
+- [**58**星][7m] [HTML] [tgeaus/weak-password](https://github.com/tgeaus/weak-password) 字典大全
+- [**35**星][3y] [arnaudsoullie/ics-default-passwords](https://github.com/arnaudsoullie/ics-default-passwords) List of default passwords for Industrial Control Systems
+- [**27**星][8m] [PS] [onelogicalmyth/invoke-gppcse](https://github.com/onelogicalmyth/invoke-gppcse) Obtains a list of GPOs based on known Client Side Extensions (CSE) that normally contain passwords
+- [**24**星][2y] [PHP] [skyzyx/bad-passwords](https://github.com/skyzyx/bad-passwords) A list of the top 10,000 most-used passwords from hacked password lists.
+- [**23**星][3y] [Go] [hgfischer/domainerator](https://github.com/hgfischer/domainerator) Simple application written in Go that combines two wordlists and a list of TLDs to form domain names and check if they are already registered.
+- [**21**星][2y] [troydo42/awesome-pen-test](https://github.com/troydo42/awesome-pen-test) Experiment with penetration testing Guides and Tools for WordPress, iOS, MacOS, Wifi and Car
+- [**12**星][2y] [cujanovic/virtual-host-wordlist](https://github.com/cujanovic/virtual-host-wordlist) Virtual host wordlist
+- [**8**星][3y] [Py] [nyxxxie/awesome-default-passwords](https://github.com/nyxxxie/awesome-default-passwords) An organized collection of default passwords for various devices and services.
+- [**5**星][3y] [cujanovic/dirsearch-wordlist](https://github.com/cujanovic/dirsearch-wordlist) Serbian/English wordlist for
+
+
+***
+
+
+## <a id="cf11bcd58b4ec7a549bfb11297003180"></a>爬虫
+
+
+- [**11489**星][2m] [facert/awesome-spider](https://github.com/facert/awesome-spider) 爬虫集合
+- [**5807**星][3m] [Py] [luyishisi/anti-anti-spider](https://github.com/luyishisi/anti-anti-spider) 越来越多的网站具有反爬虫特性，有的用图片隐藏关键数据，有的使用反人类的验证码，建立反反爬虫的代码仓库，通过与不同特性的网站做斗争（无恶意）提高技术。
+- [**4407**星][2y] [Py] [lining0806/pythonspidernotes](https://github.com/lining0806/pythonspidernotes) Python入门网络爬虫之精华版
+- [**3901**星][3m] [brucedone/awesome-crawler](https://github.com/brucedone/awesome-crawler) A collection of awesome web crawler,spider in different languages
+- [**3504**星][6m] [PHP] [hanc00l/wooyun_public](https://github.com/hanc00l/wooyun_public) This repo is archived. Thanks for wooyun! 乌云公开漏洞、知识库爬虫和搜索 crawl and search for wooyun.org public bug(vulnerability) and drops
+- [**2753**星][2m] [Py] [kr1s77/python-crawler-tutorial-starts-from-zero](https://github.com/Kr1s77/Python-crawler-tutorial-starts-from-zero) python爬虫教程，带你从零到一，包含js逆向，selenium, tesseract OCR识别,mongodb的使用，以及scrapy框架
+- [**2479**星][1y] [Py] [geekan/scrapy-examples](https://github.com/geekan/scrapy-examples) Multifarious Scrapy examples. Spiders for alexa / amazon / douban / douyu / github / linkedin etc.
+- [**2437**星][2m] [Py] [the0demiurge/shadowsocksshare](https://github.com/the0demiurge/shadowsocksshare) 从ss(r)共享网站爬虫获取共享ss(r)账号，通过解析并校验账号连通性，重新分发账号并生成订阅链接
+- [**1997**星][2m] [Py] [wistbean/learn_python3_spider](https://github.com/wistbean/learn_python3_spider) python爬虫教程系列、从0到1学习python爬虫，包括浏览器抓包，手机APP抓包，如 fiddler、mitmproxy，各种爬虫涉及的模块的使用
+- [**1130**星][1m] [HTML] [ehco1996/python-crawler](https://github.com/ehco1996/python-crawler) 从头开始 系统化的 学习如何写Python爬虫。 Python版本 3.6
+- [**509**星][12d] [Py] [mozillasecurity/funfuzz](https://github.com/mozillasecurity/funfuzz) A collection of fuzzers in a harness for testing the SpiderMonkey JavaScript engine.
+- [**384**星][4y] [PHP] [spiderlabs/mcir](https://github.com/spiderlabs/mcir) The Magical Code Injection Rainbow! MCIR is a framework for building configurable vulnerability testbeds. MCIR is also a collection of configurable vulnerability testbeds.
+- [**215**星][3y] [liinnux/awesome-crawler-cn](https://github.com/liinnux/awesome-crawler-cn) 互联网爬虫，蜘蛛，数据采集器，网页解析器的汇总，因新技术不断发展，新框架层出不穷，此文会不断更新...
+- [**51**星][2m] [Py] [ahmia/ahmia-crawler](https://github.com/ahmia/ahmia-crawler) Collection of crawlers used by the ahmia search engine
+- [**37**星][1y] [chenjiandongx/awesome-spider](https://github.com/chenjiandongx/awesome-spider) 爬虫集合
+
+
+# 贡献
+内容为系统自动导出, 有任何问题请提issue
